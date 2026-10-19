@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Tablero ejecutivo anonimizado de conversaciones de Infinia Studio.">
-  <title>Infinia · Inteligencia comercial</title>
+  <meta name="description" content="Cola operativa de conversaciones pendientes de Infinia Studio.">
+  <title>Infinia · Cola de respuesta</title>
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%235a55d6'/%3E%3Cpath d='M17 19h30v7H17zm0 12h22v7H17zm0 12h15v7H17z' fill='white'/%3E%3Ccircle cx='47' cy='46' r='9' fill='%23ff8b5c'/%3E%3C/svg%3E">
   <style>
     :root{--bg:#f3f4fa;--surface:#fff;--surface2:#f8f8fc;--ink:#202238;--muted:#74768a;--line:#e6e7f0;--purple:#5a55d6;--purple2:#7d77e8;--orange:#ff8a5b;--red:#ea6678;--green:#29a87f;--blue:#4788df;--shadow:0 16px 46px rgba(54,51,109,.09);--radius:20px}
@@ -28,12 +28,12 @@
 <body>
 <div class="app">
   <aside>
-    <div class="brand"><div class="mark">IN</div><div><b>Infinia</b><small>Inteligencia comercial</small></div></div>
-    <div class="nav"><button class="active" data-tab="resumen">◉ <span class="txt">Resumen</span></button><button data-tab="metodo">◎ <span class="txt">Criterios</span></button></div>
-    <div class="side-note"><b>Versión pública</b>Contiene únicamente información agregada. Los contactos y mensajes permanecen protegidos.</div>
+    <div class="brand"><div class="mark">IN</div><div><b>Infinia</b><small>Cola de respuesta</small></div></div>
+    <div class="nav"><button class="active" data-tab="resumen">◉ <span class="txt">Resumen</span></button><button data-tab="cola">☷ <span class="txt">Responder</span></button><button data-tab="metodo">◎ <span class="txt">Criterios</span></button></div>
+    <div class="side-note"><b>Objetivo diario</b>Vaciar primero alta intención, luego media y finalmente los mensajes genéricos.</div>
   </aside>
   <main>
-    <header class="top"><div><h1 id="pageTitle">Inteligencia comercial de conversaciones</h1><p>Resumen anonimizado de capacidad, origen y oportunidades</p></div><div class="stamp">Corte: 19 oct. 2026 · 2:52 p. m.</div></header>
+    <header class="top"><div><h1 id="pageTitle">Control de conversaciones pendientes</h1><p>Backlog comercial y cola de acción del equipo</p></div><div class="stamp">Corte: 19 oct. 2026 · 2:52 p. m.</div></header>
 
     <section id="resumen" class="tab active">
       <div class="alert"><div><strong>Hay 199 conversaciones de días anteriores que todavía requieren respuesta.</strong><p>92 —el 46.2% del backlog— tienen intención alta o media. No todas requieren la misma estrategia.</p></div><div class="count">199</div></div>
@@ -64,6 +64,15 @@
       <article class="card"><div class="head"><div><h2>Cadencia recomendada</h2><p>La prioridad debe convertirse en una regla operativa visible</p></div></div><div class="rules"><div class="rule"><b><i class="priority p-high"></i>Alta · inmediato</b><p>Responder en menos de 15 minutos y hacer seguimiento el mismo día si no concreta.</p></div><div class="rule"><b><i class="priority p-med"></i>Media · antes de 2 horas</b><p>Resolver su pregunta, descubrir necesidad y cerrar con dos opciones concretas.</p></div><div class="rule"><b><i class="priority p-low"></i>Baja · por bloques</b><p>Procesar mensajes precargados en tandas y activar una pregunta que provoque conversación real.</p></div></div></article>
     </section>
 
+    <section id="cola" class="tab">
+      <article class="card">
+        <div class="head"><div><h2>Cola de conversaciones que requieren acción</h2><p>Filtra y abre WhatsApp para responder. “Atrasado” excluye hoy.</p></div><span class="pill" id="visibleCount">Cargando…</span></div>
+        <div class="filters"><input id="search" type="search" placeholder="Buscar teléfono, nombre, servicio o mensaje…"><select id="bucket"><option value="">Todo el estado</option><option>Atrasado</option><option>Hoy</option></select><select id="segment"><option value="">Todo tipo de pendiente</option></select><select id="origin"><option value="">Todos los orígenes</option></select><select id="service"><option value="">Todos los servicios</option></select></div>
+        <div class="table-wrap"><table class="data"><thead><tr><th>Estado</th><th>Tipo de pendiente</th><th>Último mensaje</th><th>Contacto</th><th>Origen</th><th>Servicio</th><th>Mensaje</th><th>Acción</th></tr></thead><tbody id="rows"><tr><td colspan="8" class="empty">Cargando conversaciones…</td></tr></tbody></table></div>
+        <div class="toolbar"><span id="resultNote">—</span><a class="download" href="pending.csv" download>Descargar CSV completo</a></div>
+      </article>
+    </section>
+
     <section id="metodo" class="tab">
       <div class="grid two">
         <article class="card"><div class="head"><div><h2>Qué se considera pendiente</h2></div></div><p>El último mensaje útil fue enviado por el contacto y no existe una respuesta humana posterior. Una automatización no cierra el pendiente.</p><p>Se excluyen cierres naturales como “gracias”, “perfecto”, emojis o confirmaciones que no requieren otra respuesta.</p></article>
@@ -74,8 +83,17 @@
   </main>
 </div>
 <script>
-  const titles={resumen:'Inteligencia comercial de conversaciones',metodo:'Criterios y lectura ejecutiva'};
+  const titles={resumen:'Control de conversaciones pendientes',cola:'Cola para responder',metodo:'Criterios y lectura ejecutiva'};
   document.querySelectorAll('.nav button').forEach(btn=>btn.addEventListener('click',()=>{document.querySelectorAll('.nav button').forEach(x=>x.classList.remove('active'));document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));btn.classList.add('active');document.getElementById(btn.dataset.tab).classList.add('active');document.getElementById('pageTitle').textContent=titles[btn.dataset.tab];window.scrollTo({top:0,behavior:'smooth'})}));
+  let DATA=[];
+  const priority={'Booking solicitado · sin confirmar':0,'Alta · compra o evaluación':1,'Media · oportunidad de escalar':2,'Media · necesita asesoría':3,'Media · objeción activa':4,'Media · interés específico':5,'Cliente actual · pendiente':6,'Formulario · sin desarrollar':7,'Anuncio · sin desarrollar':8,'Baja · saludo o consulta genérica':9};
+  const esc=s=>String(s??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
+  const fmt=d=>new Intl.DateTimeFormat('es-PE',{day:'2-digit',month:'short',hour:'numeric',minute:'2-digit'}).format(new Date(d));
+  function waDigits(row){let d=row.phone_digits||'';if(d.length===9)d='51'+d;return d}
+  function fillSelect(id,key){const sel=document.getElementById(id);[...new Set(DATA.map(x=>x[key]).filter(Boolean))].sort().forEach(s=>sel.insertAdjacentHTML('beforeend',`<option>${esc(s)}</option>`))}
+  function render(){const q=document.getElementById('search').value.toLowerCase().trim(),b=document.getElementById('bucket').value,g=document.getElementById('segment').value,o=document.getElementById('origin').value,s=document.getElementById('service').value;let rows=DATA.filter(r=>(!b||r.bucket===b)&&(!g||r.action_segment===g)&&(!o||r.origin===o)&&(!s||r.service===s)&&(!q||[r.phone,r.name,r.service,r.last_inbound,r.origin,r.action_segment].join(' ').toLowerCase().includes(q)));rows.sort((a,z)=>(priority[a.action_segment]??20)-(priority[z.action_segment]??20)||a.last_inbound_at.localeCompare(z.last_inbound_at));document.getElementById('visibleCount').textContent=`${rows.length} visibles`;document.getElementById('resultNote').textContent=`Mostrando ${rows.length} de ${DATA.length} conversaciones abiertas`;document.getElementById('rows').innerHTML=rows.length?rows.map(r=>{const digits=waDigits(r),badge=r.action_segment.startsWith('Alta')||r.action_segment.startsWith('Booking')?'Alta':r.action_segment.startsWith('Media')?'Media':r.action_segment.startsWith('Cliente')?'Operativa':'Baja';return `<tr><td><b>${esc(r.bucket)}</b></td><td><span class="badge ${badge}">${esc(r.action_segment)}</span></td><td>${fmt(r.last_inbound_at)}</td><td><b>${esc(r.name||'Sin nombre')}</b><br><span class="muted">${esc(r.phone||'Sin teléfono')}</span></td><td>${esc(r.origin)}</td><td>${esc(r.service)}</td><td class="message" title="${esc(r.last_inbound)}">${esc(r.last_inbound.length>150?r.last_inbound.slice(0,150)+'…':r.last_inbound)}</td><td>${digits?`<a class="action" href="https://wa.me/${digits}" target="_blank" rel="noopener">Responder</a>`:'<span class="muted">Sin enlace</span>'}</td></tr>`}).join(''):'<tr><td colspan="8" class="empty">No hay resultados para estos filtros.</td></tr>'}
+  ['search','bucket','segment','origin','service'].forEach(id=>document.getElementById(id).addEventListener(id==='search'?'input':'change',render));
+  fetch('data.json').then(r=>r.json()).then(d=>{DATA=d.rows||[];fillSelect('service','service');fillSelect('segment','action_segment');fillSelect('origin','origin');render()}).catch(()=>{document.getElementById('rows').innerHTML='<tr><td colspan="8" class="empty">No se pudo cargar la cola. Abre el sitio desde su carpeta completa o recarga.</td></tr>'});
 </script>
 </body>
 </html>

@@ -1,8 +1,10 @@
 # Infinia Studio · Inteligencia comercial
 
-Tablero ejecutivo anonimizado del análisis de conversaciones de Infinia Studio.
+Tablero operativo privado del análisis de conversaciones de Infinia Studio.
 
-Esta versión pública contiene únicamente métricas agregadas. Los nombres, teléfonos, mensajes y la cola operativa permanecen en el tablero privado.
+Incluye métricas agregadas, clasificación comercial, origen observable, contactos, mensajes pendientes, descarga CSV y acceso directo a WhatsApp para accionar la cola.
+
+> Este repositorio contiene datos personales y debe mantenerse privado. No habilitar acceso público ni distribuir el CSV fuera del equipo autorizado.
 
 ## Publicación
 
