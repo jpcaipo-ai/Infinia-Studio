@@ -4,7 +4,7 @@
     "conversation": "Conversación con al menos un mensaje entrante en el periodo.",
     "lead_2plus": "Lead con 2 o más mensajes entrantes.",
     "real_conversation": "2+ mensajes del lead y 2+ mensajes humanos.",
-    "hot": "Compra, pago, inscripción, booking, fecha/hora o clase de prueba explícita.",
+    "hot": "Señal voluntaria posterior al mensaje precargado: compra, pago, booking, fecha/hora o clase de prueba explícita. El texto precargado por sí solo no califica.",
     "discovery": "Asesora formula una pregunta de necesidad/objetivo y el lead responde.",
     "manual_recontact": "Mensaje humano repetido sin respuesta del lead y después de al menos 4 horas.",
     "form": "Campos de formulario visibles o conversación iniciada por automatización asociada a registro/solicitud.",
@@ -21,15 +21,15 @@
         "nurtured_auto": 809,
         "auto_recontacts": 226,
         "lead_2plus": 961,
-        "hot": 452,
         "real_conversation": 738,
         "price_asked": 298,
         "discovered": 199,
+        "hot": 214,
         "manual_recontacts": 267,
         "disqualified": 16
       },
       "rates": {
-        "hot": 30.6,
+        "hot": 14.5,
         "lead_2plus": 65.0,
         "real_conversation": 49.9,
         "discovery": 13.5,
@@ -316,36 +316,6 @@
       ],
       "rows": [
         {
-          "conversation_id": "hsOCkn1nQdiamKbxnhZv",
-          "name": "",
-          "phone": "+51933818974",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Pilates Reformer en Infinia ✨ *Source URL:* https://www.instagram.com/p/DcMqlVKsFCd/ Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 2,
-          "manual": 0
-        },
-        {
-          "conversation_id": "ZH5HZFmnDanSD2BN24J4",
-          "name": "",
-          "phone": "+51966308277",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Pilates Reformer en Infinia ✨ *Source URL:* https://www.instagram.com/p/DcMqrwhsJKL/ Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 0
-        },
-        {
-          "conversation_id": "YRzVvNdCe8jdtzbHllce",
-          "name": "",
-          "phone": "+51998753360",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "¡Hola! Quiero más información.",
-          "inbound": 9,
-          "manual": 0
-        },
-        {
           "conversation_id": "mdRqpywcu2YNn6kOYNTt",
           "name": "",
           "phone": "+51982092453",
@@ -466,16 +436,6 @@
           "manual": 8
         },
         {
-          "conversation_id": "Uif8UExeEAxLt6pg45bD",
-          "name": "",
-          "phone": "+51924349596",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Pilates Reformer en Infinia ✨ *Source URL:* https://www.instagram.com/p/DcMqlVKsFCd/ Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 0
-        },
-        {
           "conversation_id": "cZxnrMWgeJMAmtGeGRfc",
           "name": "",
           "phone": "+51949176537",
@@ -523,16 +483,6 @@
           "service": "Onda Coolwaves",
           "last_inbound": "Me avisa por favor",
           "inbound": 23,
-          "manual": 12
-        },
-        {
-          "conversation_id": "L6rRl3gLK6rfv9tWTrNY",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Hola?",
-          "inbound": 17,
           "manual": 12
         },
         {
@@ -626,16 +576,6 @@
           "manual": 26
         },
         {
-          "conversation_id": "QdFrVL6rD8HtpTYQALQ9",
-          "name": "",
-          "phone": "+51960069417",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Hola quiero información sobre sus clases",
-          "inbound": 3,
-          "manual": 4
-        },
-        {
           "conversation_id": "WOyUaH9PQbvFpvWMIWOo",
           "name": "",
           "phone": "+51997577504",
@@ -664,16 +604,6 @@
           "last_inbound": "El miércoles a las 4pm, por favor",
           "inbound": 29,
           "manual": 24
-        },
-        {
-          "conversation_id": "6BopZBD0SAViSjsmllLu",
-          "name": "",
-          "phone": "+51972763738",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "¡Hola! Buenos días 😊 Mi nombre es Santiago Delgado, soy instructor de Pilates MAT y Reformer, y actualmente me encuentro disponible para nuevas oportunidades de trabajo. Me gustaría ponerme en contacto con ustedes para poder ser considerado en caso estén buscando incorporar instructores a su equipo,",
-          "inbound": 2,
-          "manual": 0
         },
         {
           "conversation_id": "MUkeJSfoHyyLYZSgejk2",
@@ -836,16 +766,6 @@
           "manual": 8
         },
         {
-          "conversation_id": "cBhEIWl1KIflQW1Jrjjt",
-          "name": "",
-          "phone": "+51995617467",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Cuánto demoran los tratamientos, dónde están ubicados???",
-          "inbound": 4,
-          "manual": 0
-        },
-        {
           "conversation_id": "8aSZAFmYU6KtRhKSv33u",
           "name": "",
           "phone": "+51969344955",
@@ -863,16 +783,6 @@
           "service": "No determinado",
           "last_inbound": "Quisiera saber si el sábado 5, tienen disponible una clase a las 12:00 pm para 8 personas",
           "inbound": 2,
-          "manual": 0
-        },
-        {
-          "conversation_id": "Txqt8nbaUpuhe1ZXIXMr",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Pilates Reformer en Infinia ✨ *Source URL:* https://www.instagram.com/p/DcMqlVKsFCd/ Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
           "manual": 0
         },
         {
@@ -896,56 +806,6 @@
           "manual": 41
         },
         {
-          "conversation_id": "EQdId3DMOHnbSvfdxePE",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "*Headline:* Limpieza Facial + Ona ✨ *Source URL:* https://fb.me/4y6tfIewm Deseo reservar mi sesión Facial con Ona ✨",
-          "inbound": 1,
-          "manual": 0
-        },
-        {
-          "conversation_id": "mTiRiyzD0YsAr9SzG86h",
-          "name": "",
-          "phone": "+51993940227",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Informes",
-          "inbound": 2,
-          "manual": 0
-        },
-        {
-          "conversation_id": "0R5CDsIyE95C2sQQAwkV",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 0
-        },
-        {
-          "conversation_id": "pBtHJ0vn9iCqWiJU4TxF",
-          "name": "",
-          "phone": "+51992099189",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Limpieza Facial + Ona ✨ *Source URL:* https://www.instagram.com/p/DcMqlW-Mkj4/ Deseo reservar mi sesión Facial con Ona ✨",
-          "inbound": 6,
-          "manual": 9
-        },
-        {
-          "conversation_id": "wJBeQsWtz84n6qSxhUi1",
-          "name": "",
-          "phone": "+51999223031",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Dónde está el local",
-          "inbound": 3,
-          "manual": 0
-        },
-        {
           "conversation_id": "5xTdzMX1zY1XNsQH6jxO",
           "name": "",
           "phone": "+51949163343",
@@ -964,16 +824,6 @@
           "last_inbound": "Gracias",
           "inbound": 50,
           "manual": 21
-        },
-        {
-          "conversation_id": "rWpMgpU6yvFFuFLxBhZW",
-          "name": "",
-          "phone": "+34663304101",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "La primera clase gratuita y de ahí los packs a partir de 4 clases verdad??",
-          "inbound": 4,
-          "manual": 8
         },
         {
           "conversation_id": "gpmKPw7VOarD5MWcrc71",
@@ -1106,46 +956,6 @@
           "manual": 22
         },
         {
-          "conversation_id": "HS3XaLahjAbOzIRro5FP",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "*Headline:* Limpieza Facial + Ona ✨ *Source URL:* https://www.instagram.com/p/DchZfpxMyNQ/ Deseo reservar mi sesión Facial con Ona ✨",
-          "inbound": 1,
-          "manual": 0
-        },
-        {
-          "conversation_id": "IlUBa3w1o1AwZyzqwZOq",
-          "name": "",
-          "phone": "+51997756319",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Direcion y procedimiento",
-          "inbound": 2,
-          "manual": 0
-        },
-        {
-          "conversation_id": "oJSCjf43EpuO3zMkw4Hm",
-          "name": "",
-          "phone": "+51999943700",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Precio?",
-          "inbound": 2,
-          "manual": 0
-        },
-        {
-          "conversation_id": "T6wTpLnidY7kQrs0M0vt",
-          "name": "",
-          "phone": "+51936543481",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Dónde están ubicados ?",
-          "inbound": 2,
-          "manual": 0
-        },
-        {
           "conversation_id": "QaPPr672P55HFBvbrzKg",
           "name": "",
           "phone": "+51989170077",
@@ -1206,16 +1016,6 @@
           "manual": 17
         },
         {
-          "conversation_id": "26Dt3bqLyD2h1XAtYXkQ",
-          "name": "",
-          "phone": "+51982008920",
-          "origin": "Anuncio Meta",
-          "service": "Pilates Teen",
-          "last_inbound": "Información sobre costo horarios y dónde queda por favor",
-          "inbound": 3,
-          "manual": 10
-        },
-        {
           "conversation_id": "OTcBFduscTy7D9eI2Hdt",
           "name": "",
           "phone": "+51999337178",
@@ -1264,16 +1064,6 @@
           "last_inbound": "Claro que sí confirmo 😉",
           "inbound": 10,
           "manual": 21
-        },
-        {
-          "conversation_id": "aPRdwHZ5OYTax0JICK5e",
-          "name": "",
-          "phone": "+51969870070",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Me podría decir el precio y servicio que ofrece",
-          "inbound": 4,
-          "manual": 5
         },
         {
           "conversation_id": "3SDMw8IflDTXQH5y1Sgq",
@@ -1354,26 +1144,6 @@
           "last_inbound": "Hola Akimi, te escribo al salir de la clínica para estar más tranquila por favor",
           "inbound": 15,
           "manual": 37
-        },
-        {
-          "conversation_id": "19njBYlZHuAFjLm6JF5t",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Deseo reservar mi sesión Facial con Ona ✨",
-          "inbound": 1,
-          "manual": 0
-        },
-        {
-          "conversation_id": "GlK5iGmKuKF9UrZSW7HK",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Gracias por la información",
-          "inbound": 2,
-          "manual": 0
         },
         {
           "conversation_id": "AUxlU8zlM7MlU52qCfYA",
@@ -1816,26 +1586,6 @@
           "manual": 65
         },
         {
-          "conversation_id": "IHMyIE8EcMyNstgXLwqz",
-          "name": "",
-          "phone": "+51986976569",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Yazmin, gracias pero vivo en habich me encantaria que esten cerca",
-          "inbound": 3,
-          "manual": 4
-        },
-        {
-          "conversation_id": "XjrtYbiisSYq9w6zkr6U",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Si",
-          "inbound": 3,
-          "manual": 5
-        },
-        {
           "conversation_id": "v22N98pWIJVKaHGnazS7",
           "name": "",
           "phone": "+51987943536",
@@ -1854,16 +1604,6 @@
           "last_inbound": "Muchas gracias",
           "inbound": 7,
           "manual": 5
-        },
-        {
-          "conversation_id": "EbsnEska57RIUZFX6Zqg",
-          "name": "",
-          "phone": "+51994627127",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "*Headline:* Limpieza Facial + Ona ✨ *Source URL:* https://www.instagram.com/p/DchZfpxMyNQ/ Deseo reservar mi sesión Facial con Ona ✨",
-          "inbound": 1,
-          "manual": 0
         },
         {
           "conversation_id": "ix1vCvpYnWBDVBXmwyqU",
@@ -1956,26 +1696,6 @@
           "manual": 16
         },
         {
-          "conversation_id": "DK4bz1ukFFG72tMNGaXq",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "*Headline:* Limpieza Facial + Ona ✨ *Source URL:* https://www.instagram.com/p/DcMqlW-Mkj4/ Deseo reservar mi sesión Facial con Ona ✨",
-          "inbound": 1,
-          "manual": 1
-        },
-        {
-          "conversation_id": "1htbmXaIQHIBOBhxIQAu",
-          "name": "",
-          "phone": "+51980191507",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "*Headline:* Limpieza Facial + Ona ✨ *Source URL:* https://fb.me/4y6tfIewm Deseo reservar mi sesión Facial con Ona ✨",
-          "inbound": 1,
-          "manual": 0
-        },
-        {
           "conversation_id": "8oEEb80iYEFBvH8FicYN",
           "name": "",
           "phone": "+51976183807",
@@ -1984,16 +1704,6 @@
           "last_inbound": "Pero el viernes tuve clase el viernes 1pm grupal",
           "inbound": 3,
           "manual": 4
-        },
-        {
-          "conversation_id": "UU77lIFkxwXmQq7BGsv7",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Pilates Reformer en Infinia ✨ *Source URL:* https://www.instagram.com/p/DcMqlVKsFCd/ Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 2,
-          "manual": 0
         },
         {
           "conversation_id": "WYAOv8OdTyiyj0dy3IQb",
@@ -2016,16 +1726,6 @@
           "manual": 16
         },
         {
-          "conversation_id": "eo23ziwrqecvuHB5fAFG",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Pilates Reformer en Infinia ✨ *Source URL:* https://www.instagram.com/p/DcMqlVKsFCd/ Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 0
-        },
-        {
           "conversation_id": "EkIg0DqyqeweG3d3xYYu",
           "name": "✅CORREO ELECTRÓNICO: ✅FECHA DE NACIMIENTO: ✅DIRECCIÓN: Por favor confi",
           "phone": "+51926633929",
@@ -2036,26 +1736,6 @@
           "manual": 34
         },
         {
-          "conversation_id": "lO6tSme7M1t5X8ERmAog",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Más info",
-          "inbound": 3,
-          "manual": 0
-        },
-        {
-          "conversation_id": "vvcHf0tH3ckJBqSim95Y",
-          "name": "",
-          "phone": "+51987208131",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Más info",
-          "inbound": 3,
-          "manual": 3
-        },
-        {
           "conversation_id": "0A0Q5iWkN58WskIqXMZO",
           "name": "",
           "phone": "+972536921452",
@@ -2064,46 +1744,6 @@
           "last_inbound": "Y como funciona la inscripcion cada semana",
           "inbound": 3,
           "manual": 6
-        },
-        {
-          "conversation_id": "laRxaJGHV5jb7X9WVG4B",
-          "name": "",
-          "phone": "+51951209794",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "*Headline:* Limpieza Facial + Ona ✨ *Source URL:* https://www.instagram.com/p/DcMqlW-Mkj4/ Deseo reservar mi sesión Facial con Ona ✨",
-          "inbound": 1,
-          "manual": 3
-        },
-        {
-          "conversation_id": "rIK3CDZ7YJeN1lyyrXHL",
-          "name": "",
-          "phone": "+51912522811",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Mi caso es secuelas de acné leve cual tratamiento sería ideal",
-          "inbound": 2,
-          "manual": 3
-        },
-        {
-          "conversation_id": "0c4jXmKZJ6ZBbc38fs2t",
-          "name": "",
-          "phone": "+51998784971",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Gracias",
-          "inbound": 4,
-          "manual": 5
-        },
-        {
-          "conversation_id": "lHNtg6oQzYiBVph251rF",
-          "name": "",
-          "phone": "+51943950581",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "*Headline:* Limpieza Facial + Ona ✨ *Source URL:* https://www.instagram.com/p/DcMqlW-Mkj4/ Deseo reservar mi sesión Facial con Ona ✨",
-          "inbound": 1,
-          "manual": 3
         },
         {
           "conversation_id": "4brsErlRMTQ4Ol77XcTy",
@@ -2156,16 +1796,6 @@
           "manual": 4
         },
         {
-          "conversation_id": "wYlo4Ss1uSklutTRuBtI",
-          "name": "",
-          "phone": "+51980960292",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Más información",
-          "inbound": 3,
-          "manual": 3
-        },
-        {
           "conversation_id": "sjd93Ya2BswQeRoOYyPp",
           "name": "",
           "phone": "+50689983453",
@@ -2174,16 +1804,6 @@
           "last_inbound": "La de las 8pm no",
           "inbound": 41,
           "manual": 67
-        },
-        {
-          "conversation_id": "HKHgJVJXs25V0rEYBJ3e",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Pilates Reformer en Infinia ✨ *Source URL:* https://www.instagram.com/p/DcMqlVKsFCd/ Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 0
         },
         {
           "conversation_id": "ophs1jROoWGs0lhbWtvM",
@@ -2206,16 +1826,6 @@
           "manual": 62
         },
         {
-          "conversation_id": "0J3Me7MNGq57lvOIzKuv",
-          "name": "",
-          "phone": "+51970924857",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Tomar un paquete",
-          "inbound": 3,
-          "manual": 7
-        },
-        {
           "conversation_id": "hB78OzpVCkYW2GSU6WBi",
           "name": "",
           "phone": "+51986742116",
@@ -2236,16 +1846,6 @@
           "manual": 8
         },
         {
-          "conversation_id": "zbAHnlU6UvfN4H95Xe2u",
-          "name": "",
-          "phone": "+51957304771",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Pilates Reformer en Infinia ✨ *Source URL:* https://www.instagram.com/p/DcMqlVKsFCd/ Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 5
-        },
-        {
           "conversation_id": "mLsKTHGZYtIgTELQBCLs",
           "name": "",
           "phone": "+51970164559",
@@ -2254,56 +1854,6 @@
           "last_inbound": "Si, quiero reservar una cita de evaluación",
           "inbound": 5,
           "manual": 1
-        },
-        {
-          "conversation_id": "vDGr2IbdbndbneNjIOuS",
-          "name": "",
-          "phone": "+51943193426",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Quiero saber si aplica para este detallito",
-          "inbound": 5,
-          "manual": 2
-        },
-        {
-          "conversation_id": "AKSCJdOorEy9RpqodTGP",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Pilates Reformer en Infinia ✨ *Source URL:* https://www.instagram.com/p/DcMqlVKsFCd/ Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 2
-        },
-        {
-          "conversation_id": "TpOtClOeGwIIhsvpcM1f",
-          "name": "",
-          "phone": "+51975524555",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Dónde se encuentran?",
-          "inbound": 3,
-          "manual": 7
-        },
-        {
-          "conversation_id": "nbv840prfevjD2JXQuSc",
-          "name": "",
-          "phone": "+51999196953",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Puedo ir hoy a las 3pm Rosa Bernal",
-          "inbound": 4,
-          "manual": 6
-        },
-        {
-          "conversation_id": "bYb4lDgaxRpmA7VmQ5SH",
-          "name": "",
-          "phone": "+51989774824",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Dónde queda",
-          "inbound": 2,
-          "manual": 5
         },
         {
           "conversation_id": "ouGcTSZ1guu01NHTNBh4",
@@ -2326,26 +1876,6 @@
           "manual": 8
         },
         {
-          "conversation_id": "BHfhHu54OsZgIP0nUGof",
-          "name": "",
-          "phone": "+51978721379",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Dónde están ubicados",
-          "inbound": 2,
-          "manual": 9
-        },
-        {
-          "conversation_id": "ggFo9yEqCYiZJbmBq88E",
-          "name": "",
-          "phone": "+51983575505",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Disculpe me queda muy lejos",
-          "inbound": 6,
-          "manual": 12
-        },
-        {
           "conversation_id": "itu2XlU6orlGbZJvVQm3",
           "name": "",
           "phone": "+50766178022",
@@ -2354,26 +1884,6 @@
           "last_inbound": "Gracias. Cómo te comenté, la sesión la agarró a mi regreso de viaje",
           "inbound": 2,
           "manual": 4
-        },
-        {
-          "conversation_id": "mzCHtUA1qQKAyd4r0Uae",
-          "name": "",
-          "phone": "+51997102218",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "En qué distrito están ubicados",
-          "inbound": 2,
-          "manual": 11
-        },
-        {
-          "conversation_id": "0U1tKUZYnNJj33t9rfL8",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Pilates Reformer en Infinia ✨ *Source URL:* https://www.instagram.com/p/DcMqlVKsFCd/ Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 2,
-          "manual": 0
         },
         {
           "conversation_id": "UeVhfRdgnhLYeRxSsjd8",
@@ -2406,16 +1916,6 @@
           "manual": 22
         },
         {
-          "conversation_id": "FFgrGSC5iCygZTCAiLOL",
-          "name": "",
-          "phone": "+51994996764",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Donde se encuentra ubicado?",
-          "inbound": 2,
-          "manual": 10
-        },
-        {
           "conversation_id": "NuUKvKiUbCF9jrUgjqpQ",
           "name": "",
           "phone": "+51957359898",
@@ -2424,26 +1924,6 @@
           "last_inbound": "Ohhh esas fechas es imposible ya que este amigo se va pronto. Muchas gracias de igual modo",
           "inbound": 34,
           "manual": 42
-        },
-        {
-          "conversation_id": "qtqxKoEpcJtKLll2erXh",
-          "name": "",
-          "phone": "+51926262967",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Bien",
-          "inbound": 7,
-          "manual": 28
-        },
-        {
-          "conversation_id": "W6yhpcX0rJf3ewnCnZvi",
-          "name": "",
-          "phone": "+51976855465",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Pilates Reformer en Infinia ✨ *Source URL:* https://fb.me/6hrCw1N0j Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 7
         },
         {
           "conversation_id": "dHywULCF9vUkMDdeR36Z",
@@ -2456,26 +1936,6 @@
           "manual": 10
         },
         {
-          "conversation_id": "OUJt8YXwl458MjpWn8kh",
-          "name": "",
-          "phone": "+51998103304",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "*Headline:* Limpieza Facial + Ona ✨ *Source URL:* https://www.instagram.com/p/DcMqlW-Mkj4/ Deseo reservar mi sesión Facial con Ona ✨",
-          "inbound": 3,
-          "manual": 4
-        },
-        {
-          "conversation_id": "spDY3d4jgqwgUDYSGyEO",
-          "name": "",
-          "phone": "+51950170752",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Cuál es el procedimiento",
-          "inbound": 2,
-          "manual": 3
-        },
-        {
           "conversation_id": "KQ8HR3bDzffaoY411y7y",
           "name": "✅CORREO ELECTRÓNICO: ✅FECHA DE NACIMIENTO: ✅DIRECCIÓN: Por favor ahora",
           "phone": "+51942297595",
@@ -2484,16 +1944,6 @@
           "last_inbound": "jueves 8 pm",
           "inbound": 37,
           "manual": 78
-        },
-        {
-          "conversation_id": "NDIM4cT64mOqOawR1ady",
-          "name": "",
-          "phone": "+51931133857",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Le confirmo",
-          "inbound": 6,
-          "manual": 13
         },
         {
           "conversation_id": "24sJpIHEcCoTN4UDB9xn",
@@ -2506,46 +1956,6 @@
           "manual": 3
         },
         {
-          "conversation_id": "mqBBQasW6eOWAZTEC3ty",
-          "name": "",
-          "phone": "+51949635622",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "*Headline:* Limpieza Facial + Ona ✨ *Source URL:* https://fb.me/4dVcfbxAi Deseo reservar mi sesión Facial con Ona ✨",
-          "inbound": 2,
-          "manual": 6
-        },
-        {
-          "conversation_id": "7vnhHzBS5jNn4NUqIRvr",
-          "name": "",
-          "phone": "+51955111288",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 6
-        },
-        {
-          "conversation_id": "0qgUrpO0JjHYVnDnUbJQ",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Pilates Reformer en Infinia ✨ *Source URL:* https://www.instagram.com/p/Db6-BtwMlsz/ Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 1
-        },
-        {
-          "conversation_id": "Xhs8rv4r3BSNu3NBGdZg",
-          "name": "",
-          "phone": "+51987742110",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "donde esta ubicado",
-          "inbound": 2,
-          "manual": 5
-        },
-        {
           "conversation_id": "WUeBPCvd9F7Q2i5Q03qw",
           "name": "",
           "phone": "+51993477270",
@@ -2554,26 +1964,6 @@
           "last_inbound": "Hola se me perdió el edificio! Qué número es por favor?",
           "inbound": 14,
           "manual": 18
-        },
-        {
-          "conversation_id": "Y1kTwZFHXLn4HKGevqnT",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 1
-        },
-        {
-          "conversation_id": "dCXDtQ3cm5kPqv4k99hI",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Pilates Teen",
-          "last_inbound": "Si respecto a la limpiez de cutis",
-          "inbound": 3,
-          "manual": 0
         },
         {
           "conversation_id": "r7rBkGY9xrTultnEkVb5",
@@ -2586,26 +1976,6 @@
           "manual": 4
         },
         {
-          "conversation_id": "kwNmHUOeQQrjdQa3A2TV",
-          "name": "",
-          "phone": "+51991736252",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Pilates Reformer en Infinia ✨ *Source URL:* https://fb.me/9D76t12Mp Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 2,
-          "manual": 2
-        },
-        {
-          "conversation_id": "GVQwbHWc97vLQFxM8VGw",
-          "name": "",
-          "phone": "+51997612239",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Pilates Reformer en Infinia ✨ *Source URL:* https://fb.me/9D76t12Mp Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 5
-        },
-        {
           "conversation_id": "DozvLd3UXRQLMjGL02d5",
           "name": "",
           "phone": "+51967292071",
@@ -2616,16 +1986,6 @@
           "manual": 14
         },
         {
-          "conversation_id": "ajrQy5oY8Pl78lyxDNHl",
-          "name": "",
-          "phone": "+51962767751",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Pilates Reformer en Infinia ✨ *Source URL:* https://www.instagram.com/p/Db6-BtwMlsz/ Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 5
-        },
-        {
           "conversation_id": "XubdFYqWXRM1CyUIO08a",
           "name": "",
           "phone": "",
@@ -2634,16 +1994,6 @@
           "last_inbound": "Hola! Quize cambiar un horario del dia jueves, no me permitia. Pero si me permitio reservar, Asi que reserve a las 9am para clase grupal pero necsito que se cancele la de las 10 por favor(no me permite en el app). Me salio una reunion en el colegio y tuve que hacer el cambio. Gracias",
           "inbound": 14,
           "manual": 13
-        },
-        {
-          "conversation_id": "2h6QpXjtEqstBLtETva8",
-          "name": "",
-          "phone": "+51995951813",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "estoy buscando en la molina. gracias",
-          "inbound": 5,
-          "manual": 8
         },
         {
           "conversation_id": "s86UdhWAlZgN51aruiRB",
@@ -2676,106 +2026,6 @@
           "manual": 54
         },
         {
-          "conversation_id": "dxvpkLoVOqYiDQ7IxuRb",
-          "name": "",
-          "phone": "+51999278104",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Y cuál es el horario",
-          "inbound": 3,
-          "manual": 5
-        },
-        {
-          "conversation_id": "HxtUFgRtB8flgPq6QDCN",
-          "name": "",
-          "phone": "+51972800172",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Dónde están ubicados",
-          "inbound": 2,
-          "manual": 4
-        },
-        {
-          "conversation_id": "x6R3N2VfReaSfB8k9tM8",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Si",
-          "inbound": 2,
-          "manual": 0
-        },
-        {
-          "conversation_id": "mAZ4sDuIvdfUAqF3ckWB",
-          "name": "",
-          "phone": "+51934863814",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Pilates Reformer en Infinia ✨ *Source URL:* https://fb.me/9D76t12Mp Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 9
-        },
-        {
-          "conversation_id": "Q2I5391mdCwWrHj4PF6I",
-          "name": "",
-          "phone": "+51997552347",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Podrías decirme dónde están ubicados?",
-          "inbound": 3,
-          "manual": 11
-        },
-        {
-          "conversation_id": "EzdJNvuNB8ZJvDvkg7XB",
-          "name": "",
-          "phone": "+51999458908",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Dónde están ubicados",
-          "inbound": 3,
-          "manual": 5
-        },
-        {
-          "conversation_id": "UwF7dcGvic2vlwUe9vDc",
-          "name": "",
-          "phone": "+51947152582",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Donde se ubica",
-          "inbound": 2,
-          "manual": 4
-        },
-        {
-          "conversation_id": "M7yxIDU7lGyZuKbjLDOT",
-          "name": "",
-          "phone": "+51987520076",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Limpieza facial profunda con ona",
-          "inbound": 4,
-          "manual": 8
-        },
-        {
-          "conversation_id": "gcId1PABsJieV6b6Rf7E",
-          "name": "",
-          "phone": "+51986622399",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Me interesa el que tiene PRD de salmón",
-          "inbound": 3,
-          "manual": 11
-        },
-        {
-          "conversation_id": "xVXDOt77Pxq3n4WWys1u",
-          "name": "",
-          "phone": "+51976221530",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Sí, por ello me estoy informando. Gracias por la información brindada.",
-          "inbound": 4,
-          "manual": 10
-        },
-        {
           "conversation_id": "hnSLxd63VWBGaF6mnz9z",
           "name": "",
           "phone": "+56962274318",
@@ -2796,36 +2046,6 @@
           "manual": 25
         },
         {
-          "conversation_id": "MdXor1NzUXpLtPDZW6Ld",
-          "name": "",
-          "phone": "+51952342163",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Hola solo deseo ver los horarios",
-          "inbound": 4,
-          "manual": 16
-        },
-        {
-          "conversation_id": "9VQHJ3BANJjzsHrlNNQd",
-          "name": "",
-          "phone": "+51970153037",
-          "origin": "Anuncio Meta",
-          "service": "Emerald Laser",
-          "last_inbound": "*Headline:* Agenda tu cita *Source URL:* https://fb.me/4ImX3eo55 ¡Hola! Quiero agendar mi cita para Emerald Laser ✨",
-          "inbound": 1,
-          "manual": 10
-        },
-        {
-          "conversation_id": "FpjGPvfVIuaoos7BwPrq",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 0
-        },
-        {
           "conversation_id": "bLuAM7N9nKG79n36mSGr",
           "name": "",
           "phone": "+51922143874",
@@ -2834,16 +2054,6 @@
           "last_inbound": "Hola",
           "inbound": 15,
           "manual": 24
-        },
-        {
-          "conversation_id": "Tlq5H1jLBpxuR8ARe1EY",
-          "name": "",
-          "phone": "+51963498799",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Dónde queda ?",
-          "inbound": 2,
-          "manual": 5
         },
         {
           "conversation_id": "wVfn2n0mDhP6XIrTRnCp",
@@ -2866,16 +2076,6 @@
           "manual": 4
         },
         {
-          "conversation_id": "0Ady2YAHcDaGTsavWwXw",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Holi, gracias ya fui hoy",
-          "inbound": 3,
-          "manual": 2
-        },
-        {
           "conversation_id": "My9ZX4IEpBv7p45ZReI7",
           "name": "",
           "phone": "+51952611840",
@@ -2884,16 +2084,6 @@
           "last_inbound": "Ok. 5PM",
           "inbound": 9,
           "manual": 14
-        },
-        {
-          "conversation_id": "cQJmz8NiZuxxZK6wXPMf",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Donde se encuentra ubicados?",
-          "inbound": 2,
-          "manual": 1
         },
         {
           "conversation_id": "Vb51kE4tj5ul7NGlp0mK",
@@ -2906,46 +2096,6 @@
           "manual": 12
         },
         {
-          "conversation_id": "8m9eGaGcGbLwyr2ih84g",
-          "name": "",
-          "phone": "+51999544715",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Pilates Reformer en Infinia ✨ *Source URL:* https://fb.me/9D76t12Mp Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 7
-        },
-        {
-          "conversation_id": "tLqLaU5UYMxyvqFGuy28",
-          "name": "",
-          "phone": "+51994196089",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Dónde están ubicados",
-          "inbound": 2,
-          "manual": 8
-        },
-        {
-          "conversation_id": "r3PKhmHQQO7f7v8b0dxE",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Pilates Teen",
-          "last_inbound": "¡Hola! Quiero reservar mi sesión de prueba Pilates Teens por S/60 ✨",
-          "inbound": 1,
-          "manual": 1
-        },
-        {
-          "conversation_id": "1mc6tiQndH4VqUtdPKEx",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Dirección?",
-          "inbound": 4,
-          "manual": 0
-        },
-        {
           "conversation_id": "VTQe0zb3d30hJckgaOqt",
           "name": "",
           "phone": "+51959705147",
@@ -2956,16 +2106,6 @@
           "manual": 12
         },
         {
-          "conversation_id": "VtkW5CW6JWSx1YfqqVt7",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 1
-        },
-        {
           "conversation_id": "6ZFzwXCFWc8D3zqCPmlD",
           "name": "",
           "phone": "+51995959274",
@@ -2974,26 +2114,6 @@
           "last_inbound": "Gracias",
           "inbound": 19,
           "manual": 17
-        },
-        {
-          "conversation_id": "7F2M5vePTJ07YI1xj35r",
-          "name": "",
-          "phone": "+51903211117",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Pilates Reformer en Infinia ✨ *Source URL:* https://www.instagram.com/p/DbwwlScMHpe/ Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 2,
-          "manual": 5
-        },
-        {
-          "conversation_id": "1RyyfYQMQxrMVDK2Lvww",
-          "name": "",
-          "phone": "+51923008465",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "*Headline:* Limpieza Facial + Ona ✨ *Source URL:* https://www.instagram.com/p/Db7AXlGM_WV/ Deseo reservar mi sesión Facial con Ona ✨",
-          "inbound": 1,
-          "manual": 3
         },
         {
           "conversation_id": "Y77oSmSTTgu3GfJ9nAjr",
@@ -3014,16 +2134,6 @@
           "last_inbound": "Ok gracias!",
           "inbound": 15,
           "manual": 8
-        },
-        {
-          "conversation_id": "AgBfmJxgTuVPsYn04ZYI",
-          "name": "",
-          "phone": "+51981468498",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Dirección?",
-          "inbound": 2,
-          "manual": 4
         },
         {
           "conversation_id": "KAjoakv1sCKj4VqG0C50",
@@ -3106,26 +2216,6 @@
           "manual": 7
         },
         {
-          "conversation_id": "OOproaHkAHdHwaly0MRB",
-          "name": "",
-          "phone": "+51917660039",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Desde que semana de embarazo puedo asistir a las clases?",
-          "inbound": 2,
-          "manual": 4
-        },
-        {
-          "conversation_id": "mNDintEOhsF1gKsrSitu",
-          "name": "",
-          "phone": "+51985648455",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Donde estan ubicados?",
-          "inbound": 2,
-          "manual": 2
-        },
-        {
           "conversation_id": "MpPJSU1XHjUm3JhkUW0Z",
           "name": "",
           "phone": "+51995622632",
@@ -3196,26 +2286,6 @@
           "manual": 11
         },
         {
-          "conversation_id": "HtLEwEuOWpVHlecfb1kD",
-          "name": "",
-          "phone": "+51989503350",
-          "origin": "Anuncio Meta",
-          "service": "Pilates Teen",
-          "last_inbound": "En qué días/horarios son las clases?",
-          "inbound": 2,
-          "manual": 0
-        },
-        {
-          "conversation_id": "p81lpr5C1SDB1yNgv6zx",
-          "name": "",
-          "phone": "+51999032388",
-          "origin": "Anuncio Meta",
-          "service": "Emerald Laser",
-          "last_inbound": "¡Hola! Quiero agendar mi cita para Emerald Laser ✨",
-          "inbound": 1,
-          "manual": 1
-        },
-        {
           "conversation_id": "Ncbt3VY2mqEGVYbBQnWw",
           "name": "",
           "phone": "+51966541131",
@@ -3224,56 +2294,6 @@
           "last_inbound": "Dirección",
           "inbound": 6,
           "manual": 1
-        },
-        {
-          "conversation_id": "HndgXeJefdn4aBLEctVH",
-          "name": "",
-          "phone": "+51965653670",
-          "origin": "Anuncio Meta",
-          "service": "Emerald Laser",
-          "last_inbound": "Información",
-          "inbound": 2,
-          "manual": 1
-        },
-        {
-          "conversation_id": "d6rf8GVkG5ohsPmk0m3s",
-          "name": "",
-          "phone": "+51939475250",
-          "origin": "Anuncio Meta",
-          "service": "Pilates Teen",
-          "last_inbound": "si me gustaria",
-          "inbound": 8,
-          "manual": 7
-        },
-        {
-          "conversation_id": "RqsB9QZ7ctowAPTLAJLZ",
-          "name": "",
-          "phone": "+51941586278",
-          "origin": "Anuncio Meta",
-          "service": "No determinado",
-          "last_inbound": "¡Hola! Quiero agendar mi cita de ONA + ADN de Salmón✨",
-          "inbound": 1,
-          "manual": 1
-        },
-        {
-          "conversation_id": "TyL3PH57e9iCzQ3659Ks",
-          "name": "",
-          "phone": "+51934121146",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "En dónde están ubicados?",
-          "inbound": 6,
-          "manual": 4
-        },
-        {
-          "conversation_id": "JUSfwcX6gqhtIVXriNYN",
-          "name": "",
-          "phone": "+51921797965",
-          "origin": "Anuncio Meta",
-          "service": "Emerald Laser",
-          "last_inbound": "Precio",
-          "inbound": 2,
-          "manual": 4
         },
         {
           "conversation_id": "qDJmXIHT3V4ZYxGszFNP",
@@ -3286,106 +2306,6 @@
           "manual": 7
         },
         {
-          "conversation_id": "knyXIfXtMSncyMctYtZk",
-          "name": "",
-          "phone": "+51970145676",
-          "origin": "Anuncio Meta",
-          "service": "Emerald Laser",
-          "last_inbound": "¡Hola! Quiero agendar mi cita para Emerald Laser ✨",
-          "inbound": 1,
-          "manual": 1
-        },
-        {
-          "conversation_id": "dgb4Z9nEqiGG37qnmDcI",
-          "name": "",
-          "phone": "+51949879716",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Donde???",
-          "inbound": 2,
-          "manual": 1
-        },
-        {
-          "conversation_id": "0ualRrd72MbJI6Es9GSd",
-          "name": "",
-          "phone": "+51944629883",
-          "origin": "Anuncio Meta",
-          "service": "No determinado",
-          "last_inbound": "¡Hola! Quiero agendar mi cita de ONA + ADN de Salmón✨",
-          "inbound": 1,
-          "manual": 1
-        },
-        {
-          "conversation_id": "swz8uxPdaDknmrNlvzGL",
-          "name": "",
-          "phone": "+51973352838",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "¡Hola! Quiero reservar mi sesión de prueba Pilates Infinia por S/90 ✨",
-          "inbound": 1,
-          "manual": 1
-        },
-        {
-          "conversation_id": "7Y0350bgEsK2bSQXvbT5",
-          "name": "",
-          "phone": "+51912523247",
-          "origin": "Anuncio Meta",
-          "service": "No determinado",
-          "last_inbound": "¡Hola! Quiero agendar mi cita de ONA + ADN de Salmón✨",
-          "inbound": 1,
-          "manual": 1
-        },
-        {
-          "conversation_id": "hTyCz3TA5q40gnmbGIKm",
-          "name": "",
-          "phone": "+51991734628",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "¡Hola! Quiero agendar mi cita de Ácido Hialurónico✨",
-          "inbound": 1,
-          "manual": 1
-        },
-        {
-          "conversation_id": "HCytrx8UcluoGsJ0TcVs",
-          "name": "",
-          "phone": "+51937609644",
-          "origin": "Anuncio Meta",
-          "service": "No determinado",
-          "last_inbound": "¡Hola! Quiero agendar mi cita de ONA + ADN de Salmón✨",
-          "inbound": 1,
-          "manual": 1
-        },
-        {
-          "conversation_id": "Z0jpuubSFgFUL9tM7t9a",
-          "name": "",
-          "phone": "+51905447168",
-          "origin": "Anuncio Meta",
-          "service": "Emerald Laser",
-          "last_inbound": "¡Hola! Quiero agendar mi cita para Emerald Laser ✨",
-          "inbound": 1,
-          "manual": 1
-        },
-        {
-          "conversation_id": "aBlwmBgptwPjnK9KJjJg",
-          "name": "",
-          "phone": "+51920556784",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "¡Hola! Quiero reservar mi sesión de prueba Pilates Infinia por S/90 ✨",
-          "inbound": 1,
-          "manual": 1
-        },
-        {
-          "conversation_id": "DbmeiJP42SfJnh91akfr",
-          "name": "",
-          "phone": "+51992993270",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "¡Hola! Quiero reservar mi sesión de prueba Pilates Infinia por S/90 ✨",
-          "inbound": 1,
-          "manual": 1
-        },
-        {
           "conversation_id": "5uTi0tYBQxJXUyPEQ0uh",
           "name": "",
           "phone": "+34637234640",
@@ -3394,286 +2314,6 @@
           "last_inbound": "Ok gracias",
           "inbound": 8,
           "manual": 7
-        },
-        {
-          "conversation_id": "xS2C5MQuvb6mV5j6MchU",
-          "name": "",
-          "phone": "+51921060820",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "¡Hola! Quiero reservar mi sesión de prueba Pilates Infinia por S/90 ✨",
-          "inbound": 1,
-          "manual": 1
-        },
-        {
-          "conversation_id": "EY5kknDDS6jf51rzZPZd",
-          "name": "",
-          "phone": "+51923551234",
-          "origin": "Anuncio Meta",
-          "service": "Emerald Laser",
-          "last_inbound": "¡Hola! Quiero agendar mi cita para Emerald Laser ✨",
-          "inbound": 1,
-          "manual": 1
-        },
-        {
-          "conversation_id": "WT57NqFx1khcZBTPNwdu",
-          "name": "",
-          "phone": "+51964858341",
-          "origin": "Anuncio Meta",
-          "service": "Pilates Teen",
-          "last_inbound": "¡Hola! Quiero reservar mi sesión de prueba Pilates Teens por S/60 ✨",
-          "inbound": 1,
-          "manual": 3
-        },
-        {
-          "conversation_id": "8ShTbBLplavYgYX0DlU7",
-          "name": "",
-          "phone": "+51947979584",
-          "origin": "Anuncio Meta",
-          "service": "No determinado",
-          "last_inbound": "precio",
-          "inbound": 2,
-          "manual": 4
-        },
-        {
-          "conversation_id": "74mH5bexEvJcMnbt2Lcw",
-          "name": "",
-          "phone": "+51979376023",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Vivo en Breña",
-          "inbound": 3,
-          "manual": 6
-        },
-        {
-          "conversation_id": "GVkhbx3VyFe1sASpzxVV",
-          "name": "",
-          "phone": "+51997892971",
-          "origin": "Anuncio Meta",
-          "service": "Emerald Laser",
-          "last_inbound": "¡Hola! Quiero agendar mi cita para Emerald Laser ✨",
-          "inbound": 1,
-          "manual": 5
-        },
-        {
-          "conversation_id": "lTowZatPR1f3eiHDj0z0",
-          "name": "",
-          "phone": "+51958260953",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "¡Hola! Quiero agendar mi cita de ONA + ADN de Salmón✨",
-          "inbound": 1,
-          "manual": 4
-        },
-        {
-          "conversation_id": "ntsj5mY1nR3qbi7DL2SX",
-          "name": "",
-          "phone": "+51973193357",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Estoy interesada en una limpieza facial profunda",
-          "inbound": 4,
-          "manual": 9
-        },
-        {
-          "conversation_id": "p7tj09EcBUFHrJXw28vS",
-          "name": "",
-          "phone": "+51989852485",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Precio",
-          "inbound": 2,
-          "manual": 5
-        },
-        {
-          "conversation_id": "O9Tjs9DWKdvr8BAz8trT",
-          "name": "",
-          "phone": "+51971459746",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Precio",
-          "inbound": 2,
-          "manual": 5
-        },
-        {
-          "conversation_id": "oCva2jgjt6u9mjLWg8At",
-          "name": "",
-          "phone": "+51913522325",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "¡Hola! Quiero agendar mi cita de ONA + ADN de Salmón✨",
-          "inbound": 1,
-          "manual": 5
-        },
-        {
-          "conversation_id": "YlcR1mcliKMhN13SDaQ3",
-          "name": "",
-          "phone": "+51924931959",
-          "origin": "Anuncio Meta",
-          "service": "Pilates Teen",
-          "last_inbound": "¡Hola! Quiero reservar mi sesión de prueba Pilates Teens por S/65 ✨",
-          "inbound": 1,
-          "manual": 2
-        },
-        {
-          "conversation_id": "lSgE522029EoqrloCPT5",
-          "name": "",
-          "phone": "+51903111688",
-          "origin": "Anuncio Meta",
-          "service": "Pilates Teen",
-          "last_inbound": "¡Hola! Quiero reservar mi sesión de prueba Pilates Teens por S/65 ✨",
-          "inbound": 1,
-          "manual": 2
-        },
-        {
-          "conversation_id": "Rn9tgqPG3F0kdxhaXZ5N",
-          "name": "",
-          "phone": "+51908575273",
-          "origin": "Anuncio Meta",
-          "service": "Pilates Teen",
-          "last_inbound": "¡Hola! Quiero reservar mi sesión de prueba Pilates Teens por S/65 ✨",
-          "inbound": 1,
-          "manual": 3
-        },
-        {
-          "conversation_id": "eRnEQDxvAzi2GRHekJFL",
-          "name": "",
-          "phone": "+51970562383",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Hacen depilación",
-          "inbound": 2,
-          "manual": 3
-        },
-        {
-          "conversation_id": "pZtD5IqhpVYGMp6cqqBE",
-          "name": "",
-          "phone": "+51997576100",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "¡Hola! Quiero agendar mi cita de ONA + ADN de Salmón✨",
-          "inbound": 1,
-          "manual": 5
-        },
-        {
-          "conversation_id": "BQCTTBqgdYl9ktovgd4l",
-          "name": "",
-          "phone": "+51990538414",
-          "origin": "Anuncio Meta",
-          "service": "Emerald Laser",
-          "last_inbound": "¡Hola! Quiero agendar mi cita para Emerald Laser ✨",
-          "inbound": 1,
-          "manual": 4
-        },
-        {
-          "conversation_id": "ZYIkyMrhC1D7o6CAdbki",
-          "name": "",
-          "phone": "+51987200943",
-          "origin": "Anuncio Meta",
-          "service": "Pilates Teen",
-          "last_inbound": "¡Hola! Quiero reservar mi sesión de prueba Pilates Teens por S/60 ✨",
-          "inbound": 1,
-          "manual": 2
-        },
-        {
-          "conversation_id": "BPJn5x8ZpgFIvqBHLNN0",
-          "name": "",
-          "phone": "+51987755664",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "¡Hola! Quiero agendar mi cita de ONA + ADN de Salmón✨",
-          "inbound": 1,
-          "manual": 3
-        },
-        {
-          "conversation_id": "7mJtbhPFUOanaTayTnCp",
-          "name": "",
-          "phone": "+51970864435",
-          "origin": "Anuncio Meta",
-          "service": "Emerald Laser",
-          "last_inbound": "¡Hola! Quiero agendar mi cita para Emerald Laser ✨",
-          "inbound": 1,
-          "manual": 5
-        },
-        {
-          "conversation_id": "Bt5xr1Ha0khpdM144aSO",
-          "name": "",
-          "phone": "+51969372807",
-          "origin": "Anuncio Meta",
-          "service": "Pilates Teen",
-          "last_inbound": "Mi hija tiene 11 años, próxima a cumplir 12 pero nos gustaría tomar clases juntas",
-          "inbound": 4,
-          "manual": 5
-        },
-        {
-          "conversation_id": "rvb8J49vBS1I3NYHtFYw",
-          "name": "",
-          "phone": "+51917369890",
-          "origin": "Anuncio Meta",
-          "service": "Pilates Teen",
-          "last_inbound": "¡Hola! Quiero reservar mi sesión de prueba Pilates Teens por S/60 ✨",
-          "inbound": 1,
-          "manual": 2
-        },
-        {
-          "conversation_id": "RwsTzIBJlsuqQ0CrXZRb",
-          "name": "",
-          "phone": "+51997216627",
-          "origin": "Anuncio Meta",
-          "service": "Emerald Laser",
-          "last_inbound": "¡Hola! Quiero agendar mi cita para Emerald Laser information ✨",
-          "inbound": 1,
-          "manual": 2
-        },
-        {
-          "conversation_id": "fhyd3G8DEtZhj05NT1Zh",
-          "name": "",
-          "phone": "+51961776912",
-          "origin": "Anuncio Meta",
-          "service": "Pilates Teen",
-          "last_inbound": "¡Hola! Quiero reservar mi sesión de prueba Pilates Teens por S/60 ✨",
-          "inbound": 1,
-          "manual": 3
-        },
-        {
-          "conversation_id": "sHtrQPJ0iGUDvuThX6cF",
-          "name": "",
-          "phone": "+51946094061",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Dónde queda ?",
-          "inbound": 3,
-          "manual": 8
-        },
-        {
-          "conversation_id": "s8qsRPoNpSydYuPzVHZj",
-          "name": "",
-          "phone": "+51933665048",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Limpieza Facial",
-          "inbound": 3,
-          "manual": 3
-        },
-        {
-          "conversation_id": "wpXioJzsGWsDHEfHvrFU",
-          "name": "",
-          "phone": "+51964111036",
-          "origin": "Anuncio Meta",
-          "service": "Emerald Laser",
-          "last_inbound": "Hola, quisiera información sobre ese procedimiento por favor",
-          "inbound": 2,
-          "manual": 3
-        },
-        {
-          "conversation_id": "MQbocUHoje566Tye4e0q",
-          "name": "",
-          "phone": "+51980641961",
-          "origin": "Anuncio Meta",
-          "service": "Pilates Teen",
-          "last_inbound": "Damarys",
-          "inbound": 2,
-          "manual": 5
         },
         {
           "conversation_id": "BW3tddLObRjjjixfo1GF",
@@ -3686,26 +2326,6 @@
           "manual": 9
         },
         {
-          "conversation_id": "pj8YoqS1BwNu7spTiSov",
-          "name": "",
-          "phone": "+51970340429",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Que precio y dónde están ubicados",
-          "inbound": 2,
-          "manual": 5
-        },
-        {
-          "conversation_id": "suVSwZ1vbX9UCuxA2a5N",
-          "name": "",
-          "phone": "+51993366955",
-          "origin": "Anuncio Meta",
-          "service": "No determinado",
-          "last_inbound": "¡Hola! Quiero agendar mi cita de ONA + ADN de Salmón✨",
-          "inbound": 1,
-          "manual": 2
-        },
-        {
           "conversation_id": "AzW0oQJpJV8b2vK6oF8f",
           "name": "",
           "phone": "+51970560003",
@@ -3716,26 +2336,6 @@
           "manual": 7
         },
         {
-          "conversation_id": "nQkfbYBiydBXG5SgpDoV",
-          "name": "",
-          "phone": "+51952373791",
-          "origin": "Anuncio Meta",
-          "service": "Emerald Laser",
-          "last_inbound": "¡Hola! Quiero agendar mi cita para Emerald Laser ✨",
-          "inbound": 1,
-          "manual": 4
-        },
-        {
-          "conversation_id": "jiqlLR1Y8WxLNygBnenN",
-          "name": "",
-          "phone": "+51994783017",
-          "origin": "Anuncio Meta",
-          "service": "Pilates Teen",
-          "last_inbound": "Niña 12 años",
-          "inbound": 2,
-          "manual": 4
-        },
-        {
           "conversation_id": "idGgYeuopEvDT7pwUVkf",
           "name": "",
           "phone": "+51902662873",
@@ -3744,66 +2344,6 @@
           "last_inbound": "Te confirmo por favor, gracias",
           "inbound": 10,
           "manual": 9
-        },
-        {
-          "conversation_id": "cP3lSxQycX4e2jTzkA5e",
-          "name": "",
-          "phone": "+51965065839",
-          "origin": "Anuncio Meta",
-          "service": "Pilates Teen",
-          "last_inbound": "Donde se ubican?",
-          "inbound": 2,
-          "manual": 2
-        },
-        {
-          "conversation_id": "RpmWpKM3RRF4yHyH0w9u",
-          "name": "",
-          "phone": "+51935058719",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Estaré comunicandome a mi regreso, gracias.",
-          "inbound": 4,
-          "manual": 7
-        },
-        {
-          "conversation_id": "48i5iS6nkCzftfpFdAoJ",
-          "name": "",
-          "phone": "+51999911541",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Dónde están ubicados",
-          "inbound": 2,
-          "manual": 6
-        },
-        {
-          "conversation_id": "8ozJoKbAHfEPNlyqBNGS",
-          "name": "",
-          "phone": "+51950046319",
-          "origin": "Anuncio Meta",
-          "service": "Pilates Teen",
-          "last_inbound": "¡Hola! Quiero reservar mi sesión de prueba Pilates Teens por S/65 ✨",
-          "inbound": 1,
-          "manual": 2
-        },
-        {
-          "conversation_id": "iBcpVvcWLc2Ns4pe07i3",
-          "name": "",
-          "phone": "+51946140488",
-          "origin": "Anuncio Meta",
-          "service": "Emerald Laser",
-          "last_inbound": "¡Hola! Quiero agendar mi cita para Emerald Laser ✨",
-          "inbound": 1,
-          "manual": 1
-        },
-        {
-          "conversation_id": "8jPn1eiNbZIeR5dPIagC",
-          "name": "",
-          "phone": "+51989062997",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "El precio por favor",
-          "inbound": 3,
-          "manual": 6
         },
         {
           "conversation_id": "82qJ0bH0pZFgCiaLCkT8",
@@ -3826,86 +2366,6 @@
           "manual": 6
         },
         {
-          "conversation_id": "IqmmgTZkdJVohQ8R5ImN",
-          "name": "",
-          "phone": "+51975839926",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Q cuesta",
-          "inbound": 2,
-          "manual": 2
-        },
-        {
-          "conversation_id": "6tR2mhZepHinDk3XnLgV",
-          "name": "",
-          "phone": "+51962314580",
-          "origin": "Anuncio Meta",
-          "service": "No determinado",
-          "last_inbound": "Deseo información de costos",
-          "inbound": 2,
-          "manual": 2
-        },
-        {
-          "conversation_id": "XMs8cKnPqt3DjLJti1NP",
-          "name": "",
-          "phone": "+51919293390",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "¡Hola! Quiero reservar mi sesión de prueba Pilates Infinia por S/90 ✨",
-          "inbound": 1,
-          "manual": 4
-        },
-        {
-          "conversation_id": "TYM4qyEN48DOoJNQ9Vu6",
-          "name": "",
-          "phone": "+51941395823",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Sandra Irkñampa Gallardo",
-          "inbound": 2,
-          "manual": 7
-        },
-        {
-          "conversation_id": "HdlK1X48iMsFvINcKYsq",
-          "name": "",
-          "phone": "+51999445577",
-          "origin": "Anuncio Meta",
-          "service": "No determinado",
-          "last_inbound": "¡Hola! Quiero agendar mi cita de ONA + ADN de Salmón✨",
-          "inbound": 1,
-          "manual": 2
-        },
-        {
-          "conversation_id": "HOZFEMsrOj5uuosoBAid",
-          "name": "",
-          "phone": "+51923888941",
-          "origin": "Anuncio Meta",
-          "service": "No determinado",
-          "last_inbound": "¡Hola! Quiero agendar mi cita de ONA + ADN de Salmón✨",
-          "inbound": 1,
-          "manual": 3
-        },
-        {
-          "conversation_id": "EDEzfORXU9UGEb5pevme",
-          "name": "",
-          "phone": "+51996272995",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Engruesar los labios",
-          "inbound": 4,
-          "manual": 4
-        },
-        {
-          "conversation_id": "dXcEjjILo9aJq3f06fm0",
-          "name": "",
-          "phone": "+51991664964",
-          "origin": "Anuncio Meta",
-          "service": "Pilates Teen",
-          "last_inbound": "¡Hola! Quiero reservar mi sesión de prueba Pilates Teens por S/60 ✨",
-          "inbound": 1,
-          "manual": 2
-        },
-        {
           "conversation_id": "nCrDWW2HpaRnjfRGvO4O",
           "name": "",
           "phone": "+32470208263",
@@ -3926,56 +2386,6 @@
           "manual": 17
         },
         {
-          "conversation_id": "1cYKAPrsQ90GZqQBpqW7",
-          "name": "",
-          "phone": "+51982293577",
-          "origin": "Anuncio Meta",
-          "service": "Emerald Laser",
-          "last_inbound": "Y brazos",
-          "inbound": 3,
-          "manual": 5
-        },
-        {
-          "conversation_id": "XTmXRZORG6aoXqOJQfX8",
-          "name": "",
-          "phone": "+51978655037",
-          "origin": "Anuncio Meta",
-          "service": "Pilates Teen",
-          "last_inbound": "Muchas gracias! 😊",
-          "inbound": 5,
-          "manual": 5
-        },
-        {
-          "conversation_id": "CcUoGmQjpAzMdoBNXwq5",
-          "name": "",
-          "phone": "+51952345076",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Perfecto gracias Podría el jueves de preferencia en la mañana",
-          "inbound": 3,
-          "manual": 5
-        },
-        {
-          "conversation_id": "1SUweujvQ94n4lVFwLpQ",
-          "name": "",
-          "phone": "+51920736455",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "¡Hola! Quiero agendar mi cita de ONA + ADN de Salmón✨",
-          "inbound": 1,
-          "manual": 4
-        },
-        {
-          "conversation_id": "DWHTMzHC94OE8oiup0tU",
-          "name": "",
-          "phone": "+51965848628",
-          "origin": "Anuncio Meta",
-          "service": "No determinado",
-          "last_inbound": "Dirección",
-          "inbound": 3,
-          "manual": 4
-        },
-        {
           "conversation_id": "C34l0EM5gbHMroaA6hno",
           "name": "",
           "phone": "+51945742447",
@@ -3984,36 +2394,6 @@
           "last_inbound": "¡Hola! Quiero reservar mi sesión de prueba Pilates Teens por S/60 ✨",
           "inbound": 5,
           "manual": 1
-        },
-        {
-          "conversation_id": "ok7YjDK7KRrBeoWgBxdH",
-          "name": "",
-          "phone": "+51927799397",
-          "origin": "Anuncio Meta",
-          "service": "No determinado",
-          "last_inbound": "Dirección",
-          "inbound": 3,
-          "manual": 2
-        },
-        {
-          "conversation_id": "VMkTv3IEf7d5wCidtSKw",
-          "name": "",
-          "phone": "+51922231821",
-          "origin": "Anuncio Meta",
-          "service": "Pilates Teen",
-          "last_inbound": "¡Hola! Quiero reservar mi sesión de prueba Pilates Teens por S/65 ✨",
-          "inbound": 1,
-          "manual": 2
-        },
-        {
-          "conversation_id": "Fy2RBSqrEBxk9tL05RLE",
-          "name": "",
-          "phone": "+51986401337",
-          "origin": "Anuncio Meta",
-          "service": "Pilates Teen",
-          "last_inbound": "Teens",
-          "inbound": 2,
-          "manual": 5
         },
         {
           "conversation_id": "ecfMvEfPhW22SQKFHgln",
@@ -4026,26 +2406,6 @@
           "manual": 22
         },
         {
-          "conversation_id": "NMzYLhqi5MzIgCqrUuMk",
-          "name": "",
-          "phone": "+51930674637",
-          "origin": "Anuncio Meta",
-          "service": "Pilates Teen",
-          "last_inbound": "¡Hola! Quiero reservar mi sesión de prueba Pilates Teens por S/65 ✨",
-          "inbound": 1,
-          "manual": 4
-        },
-        {
-          "conversation_id": "1NAjSUkjlmTpftvs2G2C",
-          "name": "",
-          "phone": "+51903019450",
-          "origin": "Anuncio Meta",
-          "service": "Pilates Teen",
-          "last_inbound": "¡Hola! Quiero reservar mi sesión de prueba Pilates Teens por S/60 ✨ Hola precio de pilates porfis",
-          "inbound": 1,
-          "manual": 4
-        },
-        {
           "conversation_id": "fWUpGTJq56ooBqQy4aMz",
           "name": "",
           "phone": "+51969333154",
@@ -4054,46 +2414,6 @@
           "last_inbound": "Hola no puedo",
           "inbound": 3,
           "manual": 2
-        },
-        {
-          "conversation_id": "6CY68VcK2QQIomhLkwa5",
-          "name": "",
-          "phone": "+51957204167",
-          "origin": "Anuncio Meta",
-          "service": "Emerald Laser",
-          "last_inbound": "Precio",
-          "inbound": 3,
-          "manual": 6
-        },
-        {
-          "conversation_id": "SKMBCXoJizG51XH0sz42",
-          "name": "",
-          "phone": "+51921176833",
-          "origin": "Anuncio Meta",
-          "service": "No determinado",
-          "last_inbound": "¡Hola! Quiero agendar mi cita de ONA + ADN de Salmón✨",
-          "inbound": 1,
-          "manual": 1
-        },
-        {
-          "conversation_id": "v26AjsrzTR0r2NgSPCJ0",
-          "name": "",
-          "phone": "+51988428268",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Perfecto Donde están ubicados",
-          "inbound": 4,
-          "manual": 7
-        },
-        {
-          "conversation_id": "UXOP0CohqMWoQn71abgP",
-          "name": "",
-          "phone": "+51923546652",
-          "origin": "Anuncio Meta",
-          "service": "Pilates Teen",
-          "last_inbound": "¡Hola! Quiero reservar mi sesión de prueba Pilates Teens por S/65 ✨",
-          "inbound": 1,
-          "manual": 1
         },
         {
           "conversation_id": "hRT2EPdgmxzqA1n9Q4eW",
@@ -4106,26 +2426,6 @@
           "manual": 7
         },
         {
-          "conversation_id": "0j5vtQkeTTZT9HISY3nw",
-          "name": "",
-          "phone": "+51999455110",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Dirección por favor necesito q sea en san Isidro",
-          "inbound": 2,
-          "manual": 1
-        },
-        {
-          "conversation_id": "GEgk6lxHTBSYs1pCPcQw",
-          "name": "",
-          "phone": "+51950874860",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Y cuál es el precio",
-          "inbound": 3,
-          "manual": 5
-        },
-        {
           "conversation_id": "ILzKewWLALApn1BBxYS9",
           "name": "",
           "phone": "+51934884044",
@@ -4133,226 +2433,6 @@
           "service": "Emerald Laser",
           "last_inbound": "¡Hola! Quiero agendar mi cita para Emerald Laser ✨precio lugar x favor",
           "inbound": 2,
-          "manual": 2
-        },
-        {
-          "conversation_id": "ebVgyr2eLKmoRrkZdzu2",
-          "name": "",
-          "phone": "+51952106919",
-          "origin": "Anuncio Meta",
-          "service": "Pilates Teen",
-          "last_inbound": "Información",
-          "inbound": 2,
-          "manual": 2
-        },
-        {
-          "conversation_id": "8xQ2HgBf3A0Whf9ho7kP",
-          "name": "",
-          "phone": "+51987747883",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Su dirección",
-          "inbound": 4,
-          "manual": 6
-        },
-        {
-          "conversation_id": "NPFKkX9syd6QVr13MYcl",
-          "name": "",
-          "phone": "+51946203884",
-          "origin": "Anuncio Meta",
-          "service": "Emerald Laser",
-          "last_inbound": "¡Hola! Quiero agendar mi cita para Emerald Laser ✨",
-          "inbound": 1,
-          "manual": 2
-        },
-        {
-          "conversation_id": "TlR2zQFyNKa9rvJ5yonw",
-          "name": "",
-          "phone": "+51999025255",
-          "origin": "Anuncio Meta",
-          "service": "Emerald Laser",
-          "last_inbound": "¡Hola! Quiero agendar mi cita para Emerald Laser ✨",
-          "inbound": 1,
-          "manual": 2
-        },
-        {
-          "conversation_id": "kNrhSmdbJXxsACVGv8QI",
-          "name": "",
-          "phone": "+51991080816",
-          "origin": "Anuncio Meta",
-          "service": "No determinado",
-          "last_inbound": "Que precio tiene?",
-          "inbound": 2,
-          "manual": 2
-        },
-        {
-          "conversation_id": "bm9qWcuBOc5nSquz3S4q",
-          "name": "",
-          "phone": "+51997669940",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "¡Hola! Quiero agendar mi cita de Ácido Hialurónico✨",
-          "inbound": 1,
-          "manual": 2
-        },
-        {
-          "conversation_id": "tl9ClFhrUtlJvFjNB8vc",
-          "name": "",
-          "phone": "+51998286706",
-          "origin": "Anuncio Meta",
-          "service": "Emerald Laser",
-          "last_inbound": "¡Hola! Quiero agendar mi cita para Emerald Laser ✨",
-          "inbound": 1,
-          "manual": 2
-        },
-        {
-          "conversation_id": "eGiuJy5tnwTiIKHvKU73",
-          "name": "",
-          "phone": "+51982546018",
-          "origin": "Anuncio Meta",
-          "service": "Pilates Teen",
-          "last_inbound": "Y es solo para niñas?",
-          "inbound": 3,
-          "manual": 2
-        },
-        {
-          "conversation_id": "pY8IwC3g7m4YOiC2HNP4",
-          "name": "",
-          "phone": "+51958165145",
-          "origin": "Anuncio Meta",
-          "service": "Emerald Laser",
-          "last_inbound": "¡Hola! Quiero agendar mi cita para Emerald Laser ✨",
-          "inbound": 1,
-          "manual": 2
-        },
-        {
-          "conversation_id": "SCn5jz1OnG8CHX17pzSB",
-          "name": "",
-          "phone": "+51925992035",
-          "origin": "Anuncio Meta",
-          "service": "Emerald Laser",
-          "last_inbound": "Información",
-          "inbound": 2,
-          "manual": 1
-        },
-        {
-          "conversation_id": "y1SHBAE3qTWh4TI4dGCq",
-          "name": "",
-          "phone": "+51975030769",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "¡Hola! Quiero agendar mi cita de Ácido Hialurónico precio?✨",
-          "inbound": 1,
-          "manual": 2
-        },
-        {
-          "conversation_id": "7BEY0Z9ybmVkYL34equI",
-          "name": "",
-          "phone": "+51983505631",
-          "origin": "Anuncio Meta",
-          "service": "Emerald Laser",
-          "last_inbound": "¡Hola! Quiero agendar mi cita para Emerald Laser ✨",
-          "inbound": 1,
-          "manual": 0
-        },
-        {
-          "conversation_id": "gtUNQv6R3pTwBlS1R6LD",
-          "name": "",
-          "phone": "+51933129338",
-          "origin": "Anuncio Meta",
-          "service": "Pilates Teen",
-          "last_inbound": "Dónde queda",
-          "inbound": 3,
-          "manual": 1
-        },
-        {
-          "conversation_id": "UqaMWwIwCcF8xqmDTyiU",
-          "name": "",
-          "phone": "+51951547761",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Karen",
-          "inbound": 2,
-          "manual": 6
-        },
-        {
-          "conversation_id": "0TJNGnLGHnTEg7k4cocu",
-          "name": "",
-          "phone": "+51915107082",
-          "origin": "Anuncio Meta",
-          "service": "No determinado",
-          "last_inbound": "Dirección?",
-          "inbound": 3,
-          "manual": 2
-        },
-        {
-          "conversation_id": "hhpeUep3MfgQPnbKkuDW",
-          "name": "",
-          "phone": "+51904113673",
-          "origin": "Anuncio Meta",
-          "service": "Pilates Teen",
-          "last_inbound": "¡Hola! Quiero reservar mi sesión de prueba Pilates Teens por S/60 ✨",
-          "inbound": 1,
-          "manual": 1
-        },
-        {
-          "conversation_id": "IwxwEXLP0hXYfkoR1HLi",
-          "name": "",
-          "phone": "+51981392739",
-          "origin": "Anuncio Meta",
-          "service": "Emerald Laser",
-          "last_inbound": "¡Hola! Quiero agendar mi cita para Emerald Laser ✨",
-          "inbound": 1,
-          "manual": 1
-        },
-        {
-          "conversation_id": "eW9AcgK07HXm1aJULYIx",
-          "name": "",
-          "phone": "+51939964565",
-          "origin": "Anuncio Meta",
-          "service": "Emerald Laser",
-          "last_inbound": "¡Hola! Quiero agendar mi cita para Emerald Laser ✨",
-          "inbound": 1,
-          "manual": 1
-        },
-        {
-          "conversation_id": "OvC8FpdEuQftMwqmriZT",
-          "name": "",
-          "phone": "+51987811305",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "¡Hola! Quiero reservar mi sesión de prueba Pilates Infinia por S/90 ✨",
-          "inbound": 1,
-          "manual": 2
-        },
-        {
-          "conversation_id": "sXJBQmZWJwWT5jfiiial",
-          "name": "",
-          "phone": "+51925985068",
-          "origin": "Anuncio Meta",
-          "service": "No determinado",
-          "last_inbound": "Quiero información",
-          "inbound": 2,
-          "manual": 2
-        },
-        {
-          "conversation_id": "qrxYW5xsKba5jaUKDuoz",
-          "name": "",
-          "phone": "+51914384919",
-          "origin": "Anuncio Meta",
-          "service": "No determinado",
-          "last_inbound": "Costo",
-          "inbound": 2,
-          "manual": 1
-        },
-        {
-          "conversation_id": "VuDoPUZ1T12mXfbrLHxx",
-          "name": "",
-          "phone": "+51997374168",
-          "origin": "Anuncio Meta",
-          "service": "Emerald Laser",
-          "last_inbound": "¡Hola! Quiero agendar mi cita para Emerald Laser ✨",
-          "inbound": 1,
           "manual": 2
         },
         {
@@ -4364,466 +2444,6 @@
           "last_inbound": "¡Hola! Quiero agendar mi cita para Emerald Laser ✨",
           "inbound": 3,
           "manual": 4
-        },
-        {
-          "conversation_id": "EX7LmA9qL7JTkG302h5L",
-          "name": "",
-          "phone": "+51915104883",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "En dónde están ubicados",
-          "inbound": 3,
-          "manual": 6
-        },
-        {
-          "conversation_id": "qOZApzuS0GCiqmX3GpFK",
-          "name": "",
-          "phone": "+51933949874",
-          "origin": "Anuncio Meta",
-          "service": "Pilates Teen",
-          "last_inbound": "Me podrian porfa decir los horarios de las clases",
-          "inbound": 2,
-          "manual": 1
-        },
-        {
-          "conversation_id": "TChbSbnSniANcpjzPobi",
-          "name": "",
-          "phone": "+51997908311",
-          "origin": "Anuncio Meta",
-          "service": "Pilates Teen",
-          "last_inbound": "Dónde están ubicados y estés para adolescentes",
-          "inbound": 2,
-          "manual": 1
-        },
-        {
-          "conversation_id": "DaBQEIQcDUQmAiCFNIDN",
-          "name": "",
-          "phone": "+51947979020",
-          "origin": "Anuncio Meta",
-          "service": "Pilates Teen",
-          "last_inbound": "¡Hola! Quiero reservar mi sesión de prueba Pilates Teens por S/60 ✨",
-          "inbound": 1,
-          "manual": 0
-        },
-        {
-          "conversation_id": "s1AQLe6RiQttTRLHNuyu",
-          "name": "",
-          "phone": "+51952346584",
-          "origin": "Anuncio Meta",
-          "service": "Pilates Teen",
-          "last_inbound": "¡Hola! Quiero reservar mi sesión de prueba Pilates Teens por S/65 ✨",
-          "inbound": 1,
-          "manual": 1
-        },
-        {
-          "conversation_id": "6f5VNRfOmUcndkVLpJZI",
-          "name": "",
-          "phone": "+51968387005",
-          "origin": "Anuncio Meta",
-          "service": "No determinado",
-          "last_inbound": "Cual es el costo por favor",
-          "inbound": 2,
-          "manual": 3
-        },
-        {
-          "conversation_id": "tllpqgLUABk2yTwpU9sK",
-          "name": "",
-          "phone": "+51902173506",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Precio ?",
-          "inbound": 3,
-          "manual": 7
-        },
-        {
-          "conversation_id": "dCZZRdi6tRmYj06MQE8Z",
-          "name": "",
-          "phone": "+51977850395",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Dirección",
-          "inbound": 5,
-          "manual": 7
-        },
-        {
-          "conversation_id": "T1sOiZ1fZDkK3QpLF94u",
-          "name": "",
-          "phone": "+51999627046",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Hola quiero información sobre pilates.",
-          "inbound": 2,
-          "manual": 1
-        },
-        {
-          "conversation_id": "lT5q67iFv6niYWrPAtU6",
-          "name": "",
-          "phone": "+51938471550",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "¡Hola! Quiero agendar mi cita de Ácido Hialurónico✨precio",
-          "inbound": 1,
-          "manual": 2
-        },
-        {
-          "conversation_id": "Us1DqEty0hDkjQauaMD1",
-          "name": "",
-          "phone": "+51975379860",
-          "origin": "Anuncio Meta",
-          "service": "Emerald Laser",
-          "last_inbound": "¡Hola! Quiero agendar mi cita para Emerald Laser ✨",
-          "inbound": 1,
-          "manual": 2
-        },
-        {
-          "conversation_id": "m0DXBAjPVxKfvqezjpGH",
-          "name": "",
-          "phone": "+51960922603",
-          "origin": "Anuncio Meta",
-          "service": "Emerald Laser",
-          "last_inbound": "Por favor",
-          "inbound": 2,
-          "manual": 2
-        },
-        {
-          "conversation_id": "zu17fJVOUiD4TSBFwMjI",
-          "name": "",
-          "phone": "+51992866253",
-          "origin": "Anuncio Meta",
-          "service": "No determinado",
-          "last_inbound": "¡Hola! Quiero agendar mi cita de ONA + ADN de Salmón✨",
-          "inbound": 1,
-          "manual": 2
-        },
-        {
-          "conversation_id": "TFVxW7fOwivxmOe89axd",
-          "name": "",
-          "phone": "+51943775686",
-          "origin": "Anuncio Meta",
-          "service": "Pilates Teen",
-          "last_inbound": "¡Hola! Quiero reservar mi sesión de prueba Pilates Teens por S/65 ✨",
-          "inbound": 1,
-          "manual": 1
-        },
-        {
-          "conversation_id": "mlUiUEKdBqPjnVJBbpOr",
-          "name": "",
-          "phone": "+51991987097",
-          "origin": "Anuncio Meta",
-          "service": "No determinado",
-          "last_inbound": "¡Hola! Quiero agendar mi cita de ONA + ADN de Salmón✨",
-          "inbound": 1,
-          "manual": 2
-        },
-        {
-          "conversation_id": "WMiQ5tyyNkYw7st8VoOK",
-          "name": "",
-          "phone": "+51978908087",
-          "origin": "Anuncio Meta",
-          "service": "No determinado",
-          "last_inbound": "¡Hola! Quiero agendar mi cita de ONA + ADN de Salmón✨",
-          "inbound": 1,
-          "manual": 2
-        },
-        {
-          "conversation_id": "PaweTE0uKI7h3P5JwgZW",
-          "name": "",
-          "phone": "+51965424162",
-          "origin": "Anuncio Meta",
-          "service": "Emerald Laser",
-          "last_inbound": "¡Hola! Quiero agendar mi cita para Emerald Laser ✨",
-          "inbound": 1,
-          "manual": 1
-        },
-        {
-          "conversation_id": "jzSaRsJhchfA6etNihRZ",
-          "name": "",
-          "phone": "+51943777040",
-          "origin": "Anuncio Meta",
-          "service": "Pilates Teen",
-          "last_inbound": "??",
-          "inbound": 3,
-          "manual": 1
-        },
-        {
-          "conversation_id": "970m26aVCARux5BPZ0VZ",
-          "name": "",
-          "phone": "+51946191595",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Irene",
-          "inbound": 2,
-          "manual": 6
-        },
-        {
-          "conversation_id": "B1Dve4zCwAjCXelSe7Cp",
-          "name": "",
-          "phone": "+51934365968",
-          "origin": "Anuncio Meta",
-          "service": "Pilates Teen",
-          "last_inbound": "¡Hola! Quiero reservar mi sesión de prueba Pilates Teens por S/60 ✨",
-          "inbound": 1,
-          "manual": 2
-        },
-        {
-          "conversation_id": "K2ijsdi6cMBnMyaSTzwJ",
-          "name": "",
-          "phone": "+51987220729",
-          "origin": "Anuncio Meta",
-          "service": "Pilates Teen",
-          "last_inbound": "¡Hola! Quiero reservar mi sesión de prueba Pilates Teens por S/60 ✨",
-          "inbound": 1,
-          "manual": 2
-        },
-        {
-          "conversation_id": "Mbyw4AwCxWEmNfjVFWal",
-          "name": "",
-          "phone": "+51949172533",
-          "origin": "Anuncio Meta",
-          "service": "No determinado",
-          "last_inbound": "¡Hola! Quiero agendar mi cita de ONA + ADN de Salmón✨",
-          "inbound": 1,
-          "manual": 2
-        },
-        {
-          "conversation_id": "pDuThZxzfc8wFnauLCmW",
-          "name": "",
-          "phone": "+51922042099",
-          "origin": "Anuncio Meta",
-          "service": "Emerald Laser",
-          "last_inbound": "¡Hola! Quiero agendar mi cita para Emerald Laser ✨",
-          "inbound": 1,
-          "manual": 2
-        },
-        {
-          "conversation_id": "ZROHWuoudOZt941TASYE",
-          "name": "",
-          "phone": "+51969902898",
-          "origin": "Anuncio Meta",
-          "service": "Emerald Laser",
-          "last_inbound": "¡Hola! Quiero agendar mi cita para Emerald Laser ✨",
-          "inbound": 1,
-          "manual": 1
-        },
-        {
-          "conversation_id": "XuwuTjge0EFFQ4vhnPr8",
-          "name": "",
-          "phone": "+51952182455",
-          "origin": "Anuncio Meta",
-          "service": "Pilates Teen",
-          "last_inbound": "¡Hola! Quiero reservar mi sesión de prueba Pilates Teens por S/65 ✨",
-          "inbound": 1,
-          "manual": 0
-        },
-        {
-          "conversation_id": "zSemlYoPPpwEac4YuhuC",
-          "name": "",
-          "phone": "+51958132324",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "¡Hola! Quiero agendar mi cita de Ácido Hialurónico✨precio",
-          "inbound": 1,
-          "manual": 2
-        },
-        {
-          "conversation_id": "bfb3EwIksSzMihVD0f8l",
-          "name": "",
-          "phone": "+51999652379",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Previos h horarios porfavor",
-          "inbound": 3,
-          "manual": 2
-        },
-        {
-          "conversation_id": "cq7HgQoMD6GzqdoMiISY",
-          "name": "",
-          "phone": "+51991082209",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Hola donde estan ubicados",
-          "inbound": 2,
-          "manual": 2
-        },
-        {
-          "conversation_id": "VSPba5NGxkHoB9OouzLl",
-          "name": "",
-          "phone": "+51929088681",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "El precio de ese tratamiento?",
-          "inbound": 3,
-          "manual": 7
-        },
-        {
-          "conversation_id": "m1DsOeGMXA0lR69E5W9g",
-          "name": "",
-          "phone": "+51950817082",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Dirección",
-          "inbound": 2,
-          "manual": 2
-        },
-        {
-          "conversation_id": "awbVV7AItFmFhvWknpk0",
-          "name": "",
-          "phone": "+51976366239",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Distrito",
-          "inbound": 2,
-          "manual": 2
-        },
-        {
-          "conversation_id": "aTSQDHVSA908iyFdqXH4",
-          "name": "",
-          "phone": "+51933462751",
-          "origin": "Anuncio Meta",
-          "service": "Pilates Teen",
-          "last_inbound": "Agradeceré me.eacribas y me.oo reenvíen al.numwro que me.registre. No a este",
-          "inbound": 2,
-          "manual": 2
-        },
-        {
-          "conversation_id": "MECWu4h0frSFH59Yb4XH",
-          "name": "",
-          "phone": "+51996839618",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "¡Hola! Quiero reservar mi sesión de prueba Pilates Infinia por S/90 ✨ antes necesito información sobre su ubicación, implementos necesarios y demás temas que resulte necesario saber previamente",
-          "inbound": 1,
-          "manual": 1
-        },
-        {
-          "conversation_id": "Obd5AICZeiaa89jXI9Pg",
-          "name": "",
-          "phone": "+51998480114",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "¡Hola! Quiero reservar mi sesión de prueba Pilates Infinia por S/90 ✨",
-          "inbound": 1,
-          "manual": 2
-        },
-        {
-          "conversation_id": "B6MWYdgboSE61S13EMqL",
-          "name": "",
-          "phone": "+51956226764",
-          "origin": "Anuncio Meta",
-          "service": "No determinado",
-          "last_inbound": "Dónde están ubicados",
-          "inbound": 2,
-          "manual": 2
-        },
-        {
-          "conversation_id": "Sqb9TvWrBqJYJhsWc1Q5",
-          "name": "",
-          "phone": "+51991027430",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Quiero saber el costo si es accesible a mi presupuesto",
-          "inbound": 3,
-          "manual": 5
-        },
-        {
-          "conversation_id": "tnQD8tMe9xxnvt2hSl0L",
-          "name": "",
-          "phone": "+51995417504",
-          "origin": "Anuncio Meta",
-          "service": "Emerald Laser",
-          "last_inbound": "Hola tengo ldl alto por estar en dieta keto, hace poco lo dejé pero aun estoy en el proceso de regularizarme incorporando carbos, queria saber si esta promo seguira un tiempo mas para poder acceder a ella y si tambien tienen alguna promo con indiba para reafirmar la piel luego del emerald.",
-          "inbound": 3,
-          "manual": 6
-        },
-        {
-          "conversation_id": "2EJkJa008I24yv6u5QOT",
-          "name": "",
-          "phone": "+51902984705",
-          "origin": "Anuncio Meta",
-          "service": "Emerald Laser",
-          "last_inbound": "Información por favor",
-          "inbound": 2,
-          "manual": 1
-        },
-        {
-          "conversation_id": "6StPyRnEtZnnm7BRZ4Cm",
-          "name": "",
-          "phone": "+51958962179",
-          "origin": "Anuncio Meta",
-          "service": "Emerald Laser",
-          "last_inbound": "¡Hola! Quiero agendar mi cita para Emerald Laser ✨",
-          "inbound": 1,
-          "manual": 1
-        },
-        {
-          "conversation_id": "qFaNCvn9kVlm7gcOk8Ue",
-          "name": "",
-          "phone": "+51953153155",
-          "origin": "Anuncio Meta",
-          "service": "No determinado",
-          "last_inbound": "¡Hola! Quiero agendar mi cita de ONA + ADN de Salmón✨",
-          "inbound": 1,
-          "manual": 3
-        },
-        {
-          "conversation_id": "yVXzEU2viB4GVR5XZjxg",
-          "name": "",
-          "phone": "+51933906998",
-          "origin": "Anuncio Meta",
-          "service": "Emerald Laser",
-          "last_inbound": "¡Hola! Quiero agendar mi cita para Emerald Laser ✨",
-          "inbound": 1,
-          "manual": 3
-        },
-        {
-          "conversation_id": "ksb3CUm5dN8e4VRMDDs3",
-          "name": "",
-          "phone": "+51950693454",
-          "origin": "Anuncio Meta",
-          "service": "Pilates Teen",
-          "last_inbound": "¡Hola! Quiero reservar mi sesión de prueba Pilates Teens por S/60 ✨",
-          "inbound": 1,
-          "manual": 1
-        },
-        {
-          "conversation_id": "RqWQPxjArOhWCqCwGQcu",
-          "name": "",
-          "phone": "+51994675530",
-          "origin": "Anuncio Meta",
-          "service": "Emerald Laser",
-          "last_inbound": "¡Hola! Quiero agendar mi cita para Emerald Laser ✨",
-          "inbound": 1,
-          "manual": 2
-        },
-        {
-          "conversation_id": "DolvfRRjKMFRdazEaeg7",
-          "name": "",
-          "phone": "+51952314212",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Cual es el costo y donde se encuentran",
-          "inbound": 3,
-          "manual": 6
-        },
-        {
-          "conversation_id": "Awe1azP3Zp4430RbmiFE",
-          "name": "",
-          "phone": "+51981561416",
-          "origin": "Anuncio Meta",
-          "service": "No determinado",
-          "last_inbound": "¡Hola! Quiero agendar mi cita de ONA + ADN de Salmón✨",
-          "inbound": 1,
-          "manual": 2
-        },
-        {
-          "conversation_id": "o5yC64eEf4PTk9RlHvW8",
-          "name": "",
-          "phone": "+51999905336",
-          "origin": "Anuncio Meta",
-          "service": "Emerald Laser",
-          "last_inbound": "¡Hola! Quiero agendar mi cita para Emerald Laser ✨",
-          "inbound": 1,
-          "manual": 2
         },
         {
           "conversation_id": "J8vXtOFw7RlpG5a5uf7l",
@@ -4848,14 +2468,14 @@
         "auto_recontacts": 232,
         "lead_2plus": 929,
         "real_conversation": 699,
-        "hot": 338,
+        "hot": 211,
         "manual_recontacts": 445,
         "discovered": 305,
         "price_asked": 287,
         "disqualified": 9
       },
       "rates": {
-        "hot": 23.2,
+        "hot": 14.5,
         "lead_2plus": 63.8,
         "real_conversation": 48.0,
         "discovery": 20.9,
@@ -5138,16 +2758,6 @@
           "last_inbound": "Ok",
           "inbound": 19,
           "manual": 30
-        },
-        {
-          "conversation_id": "09jkRGB5DGfDZ3O2s7Kx",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Pilates Reformer en Infinia ✨ *Source URL:* https://www.instagram.com/p/DcMqlVKsFCd/ Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 0
         },
         {
           "conversation_id": "lTowZatPR1f3eiHDj0z0",
@@ -5590,56 +3200,6 @@
           "manual": 20
         },
         {
-          "conversation_id": "tsDou070Fc6pP8q0W4Ef",
-          "name": "",
-          "phone": "+51918442698",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Pilates Reformer en Infinia ✨ *Source URL:* https://fb.me/48FKfFKvL Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 2
-        },
-        {
-          "conversation_id": "tf7wAUMcgoqtzn0pZgJb",
-          "name": "",
-          "phone": "+51993407695",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Pilates Reformer en Infinia ✨ *Source URL:* https://fb.me/6hrCw1N0j Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 3
-        },
-        {
-          "conversation_id": "xbJpLw8GhPbzbSDIEqV6",
-          "name": "",
-          "phone": "+51999131201",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Dónde están ubicados?",
-          "inbound": 4,
-          "manual": 4
-        },
-        {
-          "conversation_id": "I99jxsMthyjbhdNywMrx",
-          "name": "",
-          "phone": "+584148390884",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Estoy atento",
-          "inbound": 3,
-          "manual": 0
-        },
-        {
-          "conversation_id": "vlXZ03aTdjtaYi5B07TM",
-          "name": "",
-          "phone": "+51993376754",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Dónde quedan ?",
-          "inbound": 2,
-          "manual": 0
-        },
-        {
           "conversation_id": "gpmKPw7VOarD5MWcrc71",
           "name": "",
           "phone": "+51999868036",
@@ -5650,56 +3210,6 @@
           "manual": 44
         },
         {
-          "conversation_id": "dEjqKXx7zal4G9IbtK9a",
-          "name": "",
-          "phone": "+51930794531",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Buenas. Tardes. Info. Carino. Que. Precio",
-          "inbound": 2,
-          "manual": 0
-        },
-        {
-          "conversation_id": "H4eHgd4n5qk3XrIiWCac",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Netamente relajarme y poner endurecer músculos",
-          "inbound": 2,
-          "manual": 0
-        },
-        {
-          "conversation_id": "FSbjCbfSKgNk4CK2Eh7l",
-          "name": "",
-          "phone": "+51942427709",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Hola consulta puedo hacer pilates si tengo discopatia lumbar",
-          "inbound": 3,
-          "manual": 0
-        },
-        {
-          "conversation_id": "nGD4ZW8kdHjpZl8kXLya",
-          "name": "",
-          "phone": "+51997420745",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Costos",
-          "inbound": 5,
-          "manual": 5
-        },
-        {
-          "conversation_id": "3UznNGCmVihlbQ8ymDI2",
-          "name": "",
-          "phone": "+51996433507",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Hola, en qué lugares tienen su local",
-          "inbound": 2,
-          "manual": 4
-        },
-        {
           "conversation_id": "xFWOej9uY1JEAoEpGUR7",
           "name": "",
           "phone": "+51946369780",
@@ -5708,16 +3218,6 @@
           "last_inbound": "precio?",
           "inbound": 4,
           "manual": 0
-        },
-        {
-          "conversation_id": "oNutGNnZocxccdjmhG8Z",
-          "name": "",
-          "phone": "+51950251874",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Pilates Reformer en Infinia ✨ *Source URL:* https://www.instagram.com/p/DcMqr5YsFn6/ Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 3
         },
         {
           "conversation_id": "8O1QoGLk3TLTC9Ro2yY3",
@@ -5930,16 +3430,6 @@
           "manual": 42
         },
         {
-          "conversation_id": "Be2t4gZodEMGu1xmSKIK",
-          "name": "",
-          "phone": "+51954063789",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Tienen estacionamiento?",
-          "inbound": 5,
-          "manual": 6
-        },
-        {
           "conversation_id": "kYtRwsQViyN38Dj1bE91",
           "name": "✅CORREO ELECTRÓNICO: ✅FECHA DE NACIMIENTO: ✅DIRECCIÓN: Por favor ahora",
           "phone": "+51983728854",
@@ -6000,16 +3490,6 @@
           "manual": 15
         },
         {
-          "conversation_id": "nLOU1UFcHSlSX830spG7",
-          "name": "",
-          "phone": "+51984761618",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Mejor",
-          "inbound": 8,
-          "manual": 15
-        },
-        {
           "conversation_id": "4Hi0VOsfhjMtlSgD1Z4L",
           "name": "",
           "phone": "+51981894458",
@@ -6060,36 +3540,6 @@
           "manual": 20
         },
         {
-          "conversation_id": "PxlTxrsQvvtSyV5b2aH6",
-          "name": "",
-          "phone": "+51991338331",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Dónde queda",
-          "inbound": 4,
-          "manual": 1
-        },
-        {
-          "conversation_id": "9rdb6pTUzjcFxD3jsUhO",
-          "name": "",
-          "phone": "+51998307218",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Elasticidad y fortaleza",
-          "inbound": 3,
-          "manual": 0
-        },
-        {
-          "conversation_id": "nB7gz6aaMbw5wfCQsBxD",
-          "name": "",
-          "phone": "+51973888120",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Cuál es el costo y cuál es la dirección",
-          "inbound": 3,
-          "manual": 0
-        },
-        {
           "conversation_id": "AUxlU8zlM7MlU52qCfYA",
           "name": "",
           "phone": "+51986325847",
@@ -6110,36 +3560,6 @@
           "manual": 25
         },
         {
-          "conversation_id": "fZX7zcvVoFIrlhSBmb2M",
-          "name": "",
-          "phone": "+51924153408",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "*Headline:* Ácido Hialurónico en Infinia *Source URL:* https://fb.me/8eR7rZ0i3 Deseo reservar mi sesión Ácido Hialurónico✨",
-          "inbound": 1,
-          "manual": 3
-        },
-        {
-          "conversation_id": "7txyWmrx5KlSbkBcQnZz",
-          "name": "",
-          "phone": "+51933214582",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Más información, deseo ojeras con armonización facial, pero no quiero un cambio sutil, deseo que realmente sea visible y efecto rejuvenecedor real",
-          "inbound": 2,
-          "manual": 3
-        },
-        {
-          "conversation_id": "K3i5vGczX8hSt9WYUwqk",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "This message is currently unavailable.",
-          "inbound": 2,
-          "manual": 0
-        },
-        {
           "conversation_id": "BDW1PHAQzwCTvWfjwEjA",
           "name": "",
           "phone": "+51941942874",
@@ -6148,16 +3568,6 @@
           "last_inbound": "Me cuentas así me inscribo",
           "inbound": 8,
           "manual": 3
-        },
-        {
-          "conversation_id": "7BsbUUK561gBsWPm6iqk",
-          "name": "",
-          "phone": "+51904333575",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "No gasto esa cantidad por esas cosas. Gracias mi hablar.",
-          "inbound": 4,
-          "manual": 5
         },
         {
           "conversation_id": "o2O60YqOqn9aBOTNaaQc",
@@ -6170,26 +3580,6 @@
           "manual": 15
         },
         {
-          "conversation_id": "Lziwq17ZDltoisfVVQiV",
-          "name": "",
-          "phone": "+51996318470",
-          "origin": "Anuncio Meta",
-          "service": "Emerald Laser",
-          "last_inbound": "no no me he realizado este tratamiento antes",
-          "inbound": 3,
-          "manual": 6
-        },
-        {
-          "conversation_id": "djGTZZ5W26lLkelptkEG",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Pilates Reformer en Infinia ✨ *Source URL:* https://wa.me/wamo/status/preview/51947280871/120256647090140550 Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 2
-        },
-        {
           "conversation_id": "gmW27jNNMW6e4RJpPIGl",
           "name": "✅CORREO ELECTRÓNICO: ✅FECHA DE NACIMIENTO: ✅DIRECCIÓN: Si claro muchas",
           "phone": "+51997898940",
@@ -6198,26 +3588,6 @@
           "last_inbound": "En qué consiste el tratamiento de reverso?",
           "inbound": 23,
           "manual": 20
-        },
-        {
-          "conversation_id": "CN07Z0mX6bklMabmrVkD",
-          "name": "",
-          "phone": "+51926320907",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "*Headline:* Ácido Hialurónico en Infinia *Source URL:* https://fb.me/4PpOxGkPL Deseo reservar mi sesión Ácido Hialurónico✨",
-          "inbound": 1,
-          "manual": 4
-        },
-        {
-          "conversation_id": "NzhDdlQMXusmWWg4K2Gn",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "*Headline:* Ácido Hialurónico en Infinia *Source URL:* https://www.instagram.com/p/DcwrrhKMEha/ Deseo reservar mi sesión Ácido Hialurónico✨",
-          "inbound": 2,
-          "manual": 4
         },
         {
           "conversation_id": "1dBhk9U5dTRUfvHggaXS",
@@ -6270,16 +3640,6 @@
           "manual": 41
         },
         {
-          "conversation_id": "9BiMBXJA6LuoXaka7vj8",
-          "name": "",
-          "phone": "+51936203524",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Pilates Reformer en Infinia ✨ *Source URL:* https://fb.me/9cTZWTRZl Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 2,
-          "manual": 0
-        },
-        {
           "conversation_id": "sAkHixfGF9CpxbdjKbTE",
           "name": "",
           "phone": "+51922485748",
@@ -6290,16 +3650,6 @@
           "manual": 13
         },
         {
-          "conversation_id": "QJWvw0KOc5Q01WIPkcNB",
-          "name": "",
-          "phone": "+51993655334",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Yazmin, hola. Cual es la dirección?",
-          "inbound": 3,
-          "manual": 3
-        },
-        {
           "conversation_id": "ePudYoznKP0WjtneXlIS",
           "name": "",
           "phone": "+51997535464",
@@ -6308,16 +3658,6 @@
           "last_inbound": "Confirmado",
           "inbound": 15,
           "manual": 19
-        },
-        {
-          "conversation_id": "2fW9U4UihKAgvXbhuZR7",
-          "name": "",
-          "phone": "+51994765204",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Y el costo de la Toxina botulínica cuanto es?",
-          "inbound": 5,
-          "manual": 11
         },
         {
           "conversation_id": "RkN3o52n0uiM2UvtUNEs",
@@ -6350,16 +3690,6 @@
           "manual": 4
         },
         {
-          "conversation_id": "WsEpUZd2Fmp7tfPtlCVw",
-          "name": "",
-          "phone": "+51992816496",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Y cuál es el costo",
-          "inbound": 4,
-          "manual": 10
-        },
-        {
           "conversation_id": "d6rf8GVkG5ohsPmk0m3s",
           "name": "✅CORREO ELECTRÓNICO: ✅FECHA DE NACIMIENTO: ✅DIRECCIÓN: Porfis me podrí",
           "phone": "+51939475250",
@@ -6368,16 +3698,6 @@
           "last_inbound": "ok",
           "inbound": 27,
           "manual": 18
-        },
-        {
-          "conversation_id": "CLS6B70XmHiLUuGUEmXG",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Pilates Reformer en Infinia ✨ *Source URL:* https://wa.me/wamo/status/preview/51947280871/120256647090140550 Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 2,
-          "manual": 0
         },
         {
           "conversation_id": "cHGMEgJsoZGKJkY1aSAZ",
@@ -6410,16 +3730,6 @@
           "manual": 19
         },
         {
-          "conversation_id": "6yWZes31HDLxAWe2scbj",
-          "name": "",
-          "phone": "+51992592767",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "*Headline:* Ácido Hialurónico en Infinia *Source URL:* https://fb.me/4PpOxGkPL Deseo reservar mi sesión Ácido Hialurónico✨",
-          "inbound": 1,
-          "manual": 3
-        },
-        {
           "conversation_id": "drZVO0pana5LkxB9j28B",
           "name": "",
           "phone": "+51992296213",
@@ -6428,26 +3738,6 @@
           "last_inbound": "Lobque pasa es ya viernes entro a trabajar",
           "inbound": 12,
           "manual": 10
-        },
-        {
-          "conversation_id": "epcQMV7B9EVCKEUDx4EU",
-          "name": "",
-          "phone": "+51927488960",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Pilates Reformer en Infinia ✨ *Source URL:* https://wa.me/wamo/status/preview/51947280871/120256647072140550 Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 2,
-          "manual": 0
-        },
-        {
-          "conversation_id": "bB2roVGrkt04avDcT2sk",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Dónde están ubicados?",
-          "inbound": 2,
-          "manual": 0
         },
         {
           "conversation_id": "iO6AOcyHLSTxc11who02",
@@ -6540,16 +3830,6 @@
           "manual": 35
         },
         {
-          "conversation_id": "FMGaKR0NwYB5GSEgs42x",
-          "name": "",
-          "phone": "+51943347365",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Pilates Reformer en Infinia ✨ *Source URL:* https://fb.me/898O9ATol Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 4
-        },
-        {
           "conversation_id": "xMGqdCtQgXIp9MCnWePo",
           "name": "",
           "phone": "+51991880759",
@@ -6558,16 +3838,6 @@
           "last_inbound": "Perfecto muchas gracias!!🙌🏻",
           "inbound": 12,
           "manual": 11
-        },
-        {
-          "conversation_id": "xciG0sM0KzqeXLXTqsAw",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Me gustaría saber de este tipo de entrenamiento.",
-          "inbound": 3,
-          "manual": 0
         },
         {
           "conversation_id": "D76Uwb7jH3RRi6PIsMJT",
@@ -6588,26 +3858,6 @@
           "last_inbound": "",
           "inbound": 7,
           "manual": 6
-        },
-        {
-          "conversation_id": "QRB1VZfBtGOORevUa9DC",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Pilates Reformer en Infinia ✨ *Source URL:* https://wa.me/wamo/status/preview/51947280871/120256647090140550 Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 2,
-          "manual": 0
-        },
-        {
-          "conversation_id": "D4fbxpPty0whJW8DB1dR",
-          "name": "",
-          "phone": "+51942121347",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Creo que ustedes están en la Molina",
-          "inbound": 3,
-          "manual": 3
         },
         {
           "conversation_id": "tKrv0vORyfobht6irKcb",
@@ -6640,26 +3890,6 @@
           "manual": 12
         },
         {
-          "conversation_id": "OUQw5fxdH07Zcfj50SWq",
-          "name": "",
-          "phone": "+51956667610",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Mañana voy al Dr y de allí te cuento plz Tal vez me ponen alguna ampolla que creo que si necesito porque las pastillas nada y te cuento para ir Mi gracias",
-          "inbound": 5,
-          "manual": 9
-        },
-        {
-          "conversation_id": "Y8GhWf4jJnGRgzJWLkqD",
-          "name": "",
-          "phone": "+51987818744",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Pilates Reformer en Infinia ✨ *Source URL:* https://www.instagram.com/p/DcMqr5YsFn6/ Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 2,
-          "manual": 0
-        },
-        {
           "conversation_id": "T0wmX50s2mTxAvcVXk7T",
           "name": "",
           "phone": "+51922572785",
@@ -6680,16 +3910,6 @@
           "manual": 2
         },
         {
-          "conversation_id": "hKmkf3W98FHsCaUIFhnA",
-          "name": "",
-          "phone": "+51945370658",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Pilates Reformer en Infinia ✨ *Source URL:* https://fb.me/6hrCw1N0j Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 2,
-          "manual": 3
-        },
-        {
           "conversation_id": "XjvPFF81x3FeMl9CnjE7",
           "name": "",
           "phone": "+51981413988",
@@ -6700,16 +3920,6 @@
           "manual": 16
         },
         {
-          "conversation_id": "7KIMkLGO9QPtTNyE9rJx",
-          "name": "",
-          "phone": "+51944635771",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "This message is currently unavailable.",
-          "inbound": 2,
-          "manual": 0
-        },
-        {
           "conversation_id": "HRpGVx7xoTecGUL8ZAcr",
           "name": "",
           "phone": "+51941103153",
@@ -6718,16 +3928,6 @@
           "last_inbound": "Creo que en esta semana no",
           "inbound": 11,
           "manual": 23
-        },
-        {
-          "conversation_id": "wgVS7ZijZsbeFtRHfHJT",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Deseo reservar mi sesión Facial con Ona ✨",
-          "inbound": 1,
-          "manual": 4
         },
         {
           "conversation_id": "zenCzry7flrrq4ZgMR5d",
@@ -6770,16 +3970,6 @@
           "manual": 17
         },
         {
-          "conversation_id": "7qccziFbdvl9JnrVccxW",
-          "name": "",
-          "phone": "+51902137087",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Pilates Reformer en Infinia ✨ *Source URL:* https://www.instagram.com/p/DcMqr5YsFn6/ Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 0
-        },
-        {
           "conversation_id": "Zh8aNYv5KlPlnGP1fFwz",
           "name": "",
           "phone": "+51994216286",
@@ -6787,46 +3977,6 @@
           "service": "Pilates",
           "last_inbound": "Me gustaría tener una clase de prueba…me podrían enviar los horarios de la semana",
           "inbound": 2,
-          "manual": 0
-        },
-        {
-          "conversation_id": "PbxClQQdxYLpSOiZpzCh",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "This message is currently unavailable.",
-          "inbound": 2,
-          "manual": 0
-        },
-        {
-          "conversation_id": "hN3HBUD2E4kXUiqB0unx",
-          "name": "",
-          "phone": "+51951484720",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Nooo quiero que me des información y precios por favor",
-          "inbound": 2,
-          "manual": 0
-        },
-        {
-          "conversation_id": "Z3uSbCcV4uphcHP29o0E",
-          "name": "",
-          "phone": "+51947300154",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Buenas , todo abdomen y laterales",
-          "inbound": 5,
-          "manual": 4
-        },
-        {
-          "conversation_id": "LvCHeHuoApu3biUHDqCJ",
-          "name": "",
-          "phone": "+51974650233",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "*Headline:* Ácido Hialurónico en Infinia *Source URL:* https://fb.me/4PpOxGkPL Deseo reservar mi sesión Ácido Hialurónico✨",
-          "inbound": 1,
           "manual": 0
         },
         {
@@ -6860,26 +4010,6 @@
           "manual": 23
         },
         {
-          "conversation_id": "HJcAdxNUdLfd1VNFjDbY",
-          "name": "",
-          "phone": "+51924264107",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Buenísimo gracias por la información",
-          "inbound": 3,
-          "manual": 4
-        },
-        {
-          "conversation_id": "eEBEddIkVi6q3aXpf58I",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "*Headline:* reel acido hialuronico.MP4 *Source URL:* https://fb.me/8EnfPn2ou Deseo reservar mi sesión Ácido Hialurónico✨",
-          "inbound": 1,
-          "manual": 0
-        },
-        {
           "conversation_id": "hiy13ujQ9Jqlp6dk02jL",
           "name": "",
           "phone": "+51922050804",
@@ -6898,16 +4028,6 @@
           "last_inbound": "Estoy ahi de todos modos. A retomar mi pilates al cual extraño tanto",
           "inbound": 2,
           "manual": 1
-        },
-        {
-          "conversation_id": "SGhfDgahH6Pgr9rM5OEI",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Pilates Reformer en Infinia ✨ *Source URL:* https://fb.me/6hrCw1N0j Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 0
         },
         {
           "conversation_id": "FitsOex5F9HksVnlPfuH",
@@ -6938,16 +4058,6 @@
           "last_inbound": "Dirección: Jr. Teodosio Parreño 260",
           "inbound": 26,
           "manual": 23
-        },
-        {
-          "conversation_id": "3yqIerbI3DQH8wtGjSMa",
-          "name": "",
-          "phone": "+51925300565",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Gracias pero son de demasido caro.",
-          "inbound": 4,
-          "manual": 3
         },
         {
           "conversation_id": "0y5oiimPrkhUuw4Ldr9Z",
@@ -7010,36 +4120,6 @@
           "manual": 12
         },
         {
-          "conversation_id": "jskghfYG35I8JJQVtQn4",
-          "name": "",
-          "phone": "+51954710025",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Donde se encuentran",
-          "inbound": 2,
-          "manual": 2
-        },
-        {
-          "conversation_id": "VjwVTRE7cQ6M7JFpinOU",
-          "name": "",
-          "phone": "+51960475777",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Pilates Reformer en Infinia ✨ *Source URL:* https://www.instagram.com/p/DcMqlVKsFCd/ Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 6
-        },
-        {
-          "conversation_id": "oQs1BHBqVX1xXHKt8uE2",
-          "name": "",
-          "phone": "+51994415013",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Si",
-          "inbound": 2,
-          "manual": 0
-        },
-        {
           "conversation_id": "NgOZFb3L5vywGtW4DkwS",
           "name": "",
           "phone": "+51966656655",
@@ -7060,16 +4140,6 @@
           "manual": 13
         },
         {
-          "conversation_id": "zBtlEV6QsNOeFvHG0ZyM",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Hola todo claro gracias!",
-          "inbound": 7,
-          "manual": 8
-        },
-        {
           "conversation_id": "WeRQHh6gRR9xR5t6fRDG",
           "name": "",
           "phone": "+51987971291",
@@ -7088,16 +4158,6 @@
           "last_inbound": "Ok gracias!!!!",
           "inbound": 12,
           "manual": 10
-        },
-        {
-          "conversation_id": "1CgyuYChJvB6vRPae54K",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "ok, pero el precio aún no me convence",
-          "inbound": 11,
-          "manual": 3
         },
         {
           "conversation_id": "EBbMVXwFjlDvVGGgwCwC",
@@ -7130,26 +4190,6 @@
           "manual": 6
         },
         {
-          "conversation_id": "10GyHUKpHreFeD39apcP",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "*Headline:* Ácido Hialurónico en Infinia *Source URL:* https://wa.me/wamo/status/preview/51947280871/120256905427950550 Deseo reservar mi sesión Ácido Hialurónico✨",
-          "inbound": 1,
-          "manual": 0
-        },
-        {
-          "conversation_id": "Aau8NLBAHm1ZGiVvvl6d",
-          "name": "",
-          "phone": "+51940771183",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "*Headline:* Ácido Hialurónico en Infinia *Source URL:* https://wa.me/wamo/status/preview/51947280871/120256905427950550 Deseo reservar mi sesión Ácido Hialurónico✨",
-          "inbound": 1,
-          "manual": 0
-        },
-        {
           "conversation_id": "QrKQJLfYk3Bi2c7ptijD",
           "name": "",
           "phone": "+51999444214",
@@ -7157,16 +4197,6 @@
           "service": "Indiba corporal",
           "last_inbound": "Si :)",
           "inbound": 15,
-          "manual": 0
-        },
-        {
-          "conversation_id": "c0lFPm9u0OqjYeWtAHSs",
-          "name": "",
-          "phone": "+51907905521",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "*Headline:* Anuncio en estados *Source URL:* https://wa.me/wamo/status/preview/51947280871/120256905427950550 Deseo reservar mi sesión Ácido Hialurónico✨",
-          "inbound": 1,
           "manual": 0
         },
         {
@@ -7180,26 +4210,6 @@
           "manual": 9
         },
         {
-          "conversation_id": "nXbxv9TD9YRHidV8t21x",
-          "name": "",
-          "phone": "+51993142373",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "",
-          "inbound": 2,
-          "manual": 3
-        },
-        {
-          "conversation_id": "7COdAi8CnFfhBDbWeH6R",
-          "name": "",
-          "phone": "+51992755338",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Me puedes dar más detalle sobre el tratamiento ?",
-          "inbound": 2,
-          "manual": 0
-        },
-        {
           "conversation_id": "iAD9vdfIKBjoOBBiJ1bK",
           "name": "",
           "phone": "+51991113078",
@@ -7208,46 +4218,6 @@
           "last_inbound": "Si gracias",
           "inbound": 10,
           "manual": 12
-        },
-        {
-          "conversation_id": "zaZtYjTjaz3TwKpJWs44",
-          "name": "",
-          "phone": "+51999573577",
-          "origin": "Anuncio Meta",
-          "service": "Corporal",
-          "last_inbound": "*Headline:* Dile adiós a la celulitis y grasa localizada *Source URL:* https://fb.me/56tGHa8y8 Deseo agendar una cita",
-          "inbound": 1,
-          "manual": 0
-        },
-        {
-          "conversation_id": "Rs1QayPScdXUS6DGJX67",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Se pueden pagar por clase ??",
-          "inbound": 3,
-          "manual": 2
-        },
-        {
-          "conversation_id": "Q78WHgn9ek4WHeSogtv9",
-          "name": "",
-          "phone": "+51986759415",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Pilates Reformer en Infinia ✨ *Source URL:* https://fb.me/7qa6E1L81 Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 2
-        },
-        {
-          "conversation_id": "xgMh3M96Zbi4BaDPMZA6",
-          "name": "",
-          "phone": "+51991138118",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Quiero probar su studio 😊",
-          "inbound": 2,
-          "manual": 0
         },
         {
           "conversation_id": "BMdAwZeHAiZfDNHgnkxT",
@@ -7310,16 +4280,6 @@
           "manual": 6
         },
         {
-          "conversation_id": "UFK82rhVXtcCSwFnhGOV",
-          "name": "",
-          "phone": "+51962069966",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "*Headline:* Ácido Hialurónico en Infinia *Source URL:* https://wa.me/wamo/status/preview/51947280871/120256905427950550 Deseo reservar mi sesión Ácido Hialurónico✨",
-          "inbound": 2,
-          "manual": 0
-        },
-        {
           "conversation_id": "u1g5DuresqxsQBmrq16p",
           "name": "",
           "phone": "",
@@ -7348,16 +4308,6 @@
           "last_inbound": "Gracias",
           "inbound": 21,
           "manual": 27
-        },
-        {
-          "conversation_id": "pZCMy5MYJJE1U9VsqiEd",
-          "name": "",
-          "phone": "+51922989794",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "*Headline:* Ácido Hialurónico en Infinia *Source URL:* https://fb.me/brQN4ROVz Deseo reservar mi sesión Ácido Hialurónico✨",
-          "inbound": 1,
-          "manual": 2
         },
         {
           "conversation_id": "uU05MSI2PpR20S1YlSkC",
@@ -7450,26 +4400,6 @@
           "manual": 3
         },
         {
-          "conversation_id": "K0EPrnKGefcBVlVz6j3e",
-          "name": "",
-          "phone": "+51997688406",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Queda muy lejos no tendrás una por la Molina",
-          "inbound": 5,
-          "manual": 5
-        },
-        {
-          "conversation_id": "klgui5atYIKo6cP2Ec3Q",
-          "name": "",
-          "phone": "+51975510888",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "*Headline:* Mejora textura, luminosidad y firmeza de forma progresiva *Source URL:* https://fb.me/7oqyxkIkH ¡Hola! Completé el formulario y me gustaría obtener más información sobre tu negocio.",
-          "inbound": 8,
-          "manual": 10
-        },
-        {
           "conversation_id": "x41nPruGe0zfxokDitBV",
           "name": "",
           "phone": "+51994322964",
@@ -7510,26 +4440,6 @@
           "manual": 22
         },
         {
-          "conversation_id": "xYPdtIqwXzkzimRRpCUo",
-          "name": "",
-          "phone": "+51924492373",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "No, nunca",
-          "inbound": 3,
-          "manual": 4
-        },
-        {
-          "conversation_id": "NfgUzKBYfLC1kUC43OF4",
-          "name": "",
-          "phone": "+51904924010",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* El mejor momento para empezar es HOY 🧘‍♀️ *Source URL:* https://www.instagram.com/p/DdUZBEiM8Pg/ Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 2
-        },
-        {
           "conversation_id": "0nZKCHuBbkSPiVVJPA83",
           "name": "✅CORREO ELECTRÓNICO: ✅FECHA DE NACIMIENTO: ✅DIRECCIÓN: ✅CELULAR: costo",
           "phone": "+51958841122",
@@ -7548,36 +4458,6 @@
           "last_inbound": "Aún tienes el lunes libre?",
           "inbound": 9,
           "manual": 11
-        },
-        {
-          "conversation_id": "OEFK7xzTXJ1RIHdy7IX6",
-          "name": "",
-          "phone": "+51998327111",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Reserva tu primera clase en Infinia 🧘‍♀️ *Source URL:* https://www.instagram.com/p/DdUYUUsMpf6/ Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 2
-        },
-        {
-          "conversation_id": "PCDr3VwyCTBn1RfkBfBx",
-          "name": "",
-          "phone": "+51993545307",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Precio",
-          "inbound": 2,
-          "manual": 2
-        },
-        {
-          "conversation_id": "OWd3VI5mz7KVhsuDdyfa",
-          "name": "",
-          "phone": "+51979784384",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "De acuerdo Muchas gracias",
-          "inbound": 5,
-          "manual": 4
         },
         {
           "conversation_id": "crsHcApUWMPROsDnVtxq",
@@ -7620,16 +4500,6 @@
           "manual": 9
         },
         {
-          "conversation_id": "GW4xaPxIJYQxitIvNfCB",
-          "name": "✅CORREO ELECTRÓNICO: ✅FECHA DE NACIMIENTO: ✅DIRECCIÓN: TELEFONO : DAME",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "El viernes?",
-          "inbound": 13,
-          "manual": 20
-        },
-        {
           "conversation_id": "QaPPr672P55HFBvbrzKg",
           "name": "",
           "phone": "+51989170077",
@@ -7640,16 +4510,6 @@
           "manual": 14
         },
         {
-          "conversation_id": "u7BkgRRjIEP6HgcI1XDA",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Reserva tu primera clase en Infinia 🧘‍♀️ *Source URL:* https://www.instagram.com/p/DdUX9d9MZJ9/ Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 0
-        },
-        {
           "conversation_id": "kahRnOlmFlgwmN5exNC6",
           "name": "✅CORREO ELECTRÓNICO: ✅FECHA DE NACIMIENTO: ✅DIRECCIÓN: 41793136 Karina",
           "phone": "+51951651540",
@@ -7658,16 +4518,6 @@
           "last_inbound": "Hola si confirmado",
           "inbound": 27,
           "manual": 26
-        },
-        {
-          "conversation_id": "ee64RhZAhZP8HoyZ2cKN",
-          "name": "",
-          "phone": "+51999441856",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* El mejor momento para empezar es HOY 🧘‍♀️ *Source URL:* https://www.instagram.com/p/DdUZNQyM3Ca/ Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 0
         },
         {
           "conversation_id": "s0cPCsqNYIC0rthOKZjq",
@@ -7710,16 +4560,6 @@
           "manual": 4
         },
         {
-          "conversation_id": "xyKZsTHGhVT3sJf2UJOg",
-          "name": "",
-          "phone": "+51975794416",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Informes pf",
-          "inbound": 2,
-          "manual": 0
-        },
-        {
           "conversation_id": "xP5b9EXNaKXvbXxjJuep",
           "name": "",
           "phone": "+51944419335",
@@ -7748,16 +4588,6 @@
           "last_inbound": "Oki gracias!",
           "inbound": 30,
           "manual": 15
-        },
-        {
-          "conversation_id": "NT8aP38M1P2mgTg8REVW",
-          "name": "",
-          "phone": "+51941102111",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Reserva tu primera clase en Infinia 🧘‍♀️ *Source URL:* https://www.instagram.com/p/DdUX9d9MZJ9/ Dónde están?",
-          "inbound": 2,
-          "manual": 0
         },
         {
           "conversation_id": "otVx0KqHtHxbHZUO4hKw",
@@ -7810,16 +4640,6 @@
           "manual": 27
         },
         {
-          "conversation_id": "SdHp2PSDJmGtYROd03Du",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Reserva tu primera clase en Infinia 🧘‍♀️ *Source URL:* https://www.instagram.com/p/DdUX9d9MZJ9/ Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 2,
-          "manual": 0
-        },
-        {
           "conversation_id": "bH2GAa5enzAyFi8l3DAr",
           "name": "✅CORREO ELECTRÓNICO: ✅FECHA DE NACIMIENTO: ✅DIRECCIÓN: Gracias Dni 70",
           "phone": "+51998874706",
@@ -7828,16 +4648,6 @@
           "last_inbound": "Medio día o 1pm?",
           "inbound": 8,
           "manual": 6
-        },
-        {
-          "conversation_id": "vJSvgybGtllVJpVpz5en",
-          "name": "",
-          "phone": "+51972738874",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Me dijo pilates o yoga que me ayuden a relajarme",
-          "inbound": 5,
-          "manual": 2
         },
         {
           "conversation_id": "MaxHKUJwjGkSuPPT1ljQ",
@@ -7860,86 +4670,6 @@
           "manual": 13
         },
         {
-          "conversation_id": "cXUBCoi6T0eV6KyUjtJV",
-          "name": "",
-          "phone": "+51980602140",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "*Headline:* Ácido Hialurónico en Infinia *Source URL:* https://www.instagram.com/p/Dc4a-ErMb95/ Deseo reservar mi sesión Ácido Hialurónico✨",
-          "inbound": 1,
-          "manual": 0
-        },
-        {
-          "conversation_id": "QDdwf4VXs9CocC0BRaC9",
-          "name": "",
-          "phone": "+51994666510",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "*Headline:* Ácido Hialurónico en Infinia *Source URL:* https://www.instagram.com/p/Dc4a-ErMb95/ Deseo reservar mi sesión Ácido Hialurónico✨",
-          "inbound": 1,
-          "manual": 0
-        },
-        {
-          "conversation_id": "u2jJwkGdQ608yRTiBSn5",
-          "name": "",
-          "phone": "+51948130531",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Hola dime tiene local en San Isidro .. Miraflores .. o que lugar cercano a San Isidro ? Gracias",
-          "inbound": 2,
-          "manual": 0
-        },
-        {
-          "conversation_id": "YNDjMxdafGM8racP804i",
-          "name": "",
-          "phone": "+51980207074",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "*Headline:* Ácido Hialurónico en Infinia *Source URL:* https://fb.me/kbY267EXF Deseo reservar mi sesión Ácido Hialurónico✨",
-          "inbound": 1,
-          "manual": 0
-        },
-        {
-          "conversation_id": "xQiI1nw96AagGVG0wxsk",
-          "name": "",
-          "phone": "+51990316877",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Reserva tu primera clase en Infinia 🧘‍♀️ *Source URL:* https://www.instagram.com/p/DdUX9d9MZJ9/ Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 0
-        },
-        {
-          "conversation_id": "jylA2QIxVe65PLbTJiJg",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "En q consiste?",
-          "inbound": 2,
-          "manual": 0
-        },
-        {
-          "conversation_id": "jIPZS0XdLlVkjO6NsgYB",
-          "name": "",
-          "phone": "+51989157956",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Donde se encuentran?",
-          "inbound": 2,
-          "manual": 0
-        },
-        {
-          "conversation_id": "7TxjrmJtB5q9Yn8Nu0jS",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "*Headline:* Ácido Hialurónico en Infinia *Source URL:* https://wa.me/wamo/status/preview/51947280871/120256905427950550 Deseo reservar mi sesión Ácido Hialurónico✨",
-          "inbound": 2,
-          "manual": 0
-        },
-        {
           "conversation_id": "D9A0uT9p1ePltMJEdYNI",
           "name": "",
           "phone": "",
@@ -7948,16 +4678,6 @@
           "last_inbound": "Deseo Inscribirme Pilates Infinia✨",
           "inbound": 2,
           "manual": 1
-        },
-        {
-          "conversation_id": "iTGzY41WCVrbVjfw4dXG",
-          "name": "",
-          "phone": "+51941181537",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Reserva tu primera clase en Infinia 🧘‍♀️ *Source URL:* https://www.instagram.com/p/DdUX9d9MZJ9/ Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 2
         },
         {
           "conversation_id": "Z0L3wFw3TFte2TBWClLQ",
@@ -7980,26 +4700,6 @@
           "manual": 19
         },
         {
-          "conversation_id": "UKUzIA6My79bPtKZj0s8",
-          "name": "",
-          "phone": "+51987086655",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Dirección por favor.",
-          "inbound": 2,
-          "manual": 3
-        },
-        {
-          "conversation_id": "7PsES7NrJWcNcf4Vzfv3",
-          "name": "",
-          "phone": "+51989328657",
-          "origin": "Anuncio Meta",
-          "service": "Emerald Laser",
-          "last_inbound": "*Headline:* Reserva tu sesión *Source URL:* https://www.instagram.com/p/DahtRr1sitr/ ¡Hola! Quiero agendar mi cita para Emerald Laser ✨",
-          "inbound": 1,
-          "manual": 3
-        },
-        {
           "conversation_id": "K3LspnWpDb9bT6fy0e6g",
           "name": "✅CORREO ELECTRÓNICO: ✅FECHA DE NACIMIENTO: ✅DIRECCIÓN: Hola estaba hab",
           "phone": "+51958796654",
@@ -8020,16 +4720,6 @@
           "manual": 18
         },
         {
-          "conversation_id": "2cR9hlf5dQ90nJ7638zH",
-          "name": "",
-          "phone": "+51998341923",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Dirección de donde están ubicados",
-          "inbound": 2,
-          "manual": 3
-        },
-        {
           "conversation_id": "AJuI8QiaZd697KdvPi4n",
           "name": "",
           "phone": "+51973582806",
@@ -8037,16 +4727,6 @@
           "service": "Pilates",
           "last_inbound": "Dónde están ?",
           "inbound": 3,
-          "manual": 4
-        },
-        {
-          "conversation_id": "RNyJowufQMKI1OyKylv6",
-          "name": "",
-          "phone": "+51919723279",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "gracias",
-          "inbound": 5,
           "manual": 4
         },
         {
@@ -8060,76 +4740,6 @@
           "manual": 22
         },
         {
-          "conversation_id": "kwtnj0TaoZfxjwO5aO3F",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* El mejor momento para empezar es HOY 🧘‍♀️ *Source URL:* https://www.instagram.com/p/DdUZNQyM3Ca/ Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 2,
-          "manual": 5
-        },
-        {
-          "conversation_id": "H96JnVmJllEi0tgBYxam",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 0
-        },
-        {
-          "conversation_id": "kLV087V9OSDNiCs50j6v",
-          "name": "",
-          "phone": "+51983440172",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Puedo aún hacer",
-          "inbound": 6,
-          "manual": 0
-        },
-        {
-          "conversation_id": "chyYVIui5wgHetgJEgrN",
-          "name": "",
-          "phone": "+51998379006",
-          "origin": "Anuncio Meta",
-          "service": "No determinado",
-          "last_inbound": "*Headline:* Reserva tu primera clase en Infinia 🧘‍♀️ *Source URL:* https://www.instagram.com/p/DdUX9d9MZJ9/ Tienen clase de prueba ?",
-          "inbound": 1,
-          "manual": 0
-        },
-        {
-          "conversation_id": "M1NkwcALw9HxUbQaUj0e",
-          "name": "",
-          "phone": "+51991087370",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "*Headline:* Ácido Hialurónico en Infinia *Source URL:* https://www.instagram.com/p/DcMqlYrMW5E/ Deseo reservar mi sesión Ácido Hialurónico✨",
-          "inbound": 1,
-          "manual": 0
-        },
-        {
-          "conversation_id": "skgmF1MFrTzUdTjsDm5j",
-          "name": "",
-          "phone": "+51999077515",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Yo perdi brazo derecho puedo hacer pilates?",
-          "inbound": 2,
-          "manual": 0
-        },
-        {
-          "conversation_id": "zcRzACBJ1IyAqx9YKp6G",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Reserva tu primera clase en Infinia 🧘‍♀️ *Source URL:* https://www.instagram.com/p/DdUX9d9MZJ9/ Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 0
-        },
-        {
           "conversation_id": "LW0ZvGKmadv0L7ZJkGVw",
           "name": "",
           "phone": "+51997520324",
@@ -8138,86 +4748,6 @@
           "last_inbound": "Gracias",
           "inbound": 10,
           "manual": 10
-        },
-        {
-          "conversation_id": "aRVCrjCU98YBkXAEruIA",
-          "name": "",
-          "phone": "+51987371161",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "??",
-          "inbound": 5,
-          "manual": 10
-        },
-        {
-          "conversation_id": "08ix5kxxtOE1NDXlR6uV",
-          "name": "",
-          "phone": "+51997898565",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Reserva tu primera clase en Infinia 🧘‍♀️ *Source URL:* https://www.instagram.com/p/DdUX9d9MZJ9/ Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 0
-        },
-        {
-          "conversation_id": "NQy7KpIxxM8vty2pDEvR",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "El precio es por una zona?",
-          "inbound": 3,
-          "manual": 5
-        },
-        {
-          "conversation_id": "LAWZbeNU3w66kWWvs6Qg",
-          "name": "",
-          "phone": "+51992148019",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* El mejor momento para empezar es HOY 🧘‍♀️ *Source URL:* https://www.instagram.com/p/DdUZNQyM3Ca/ Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 2
-        },
-        {
-          "conversation_id": "K87y8GX7Ga5ZRIakLhKD",
-          "name": "",
-          "phone": "+51975765065",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* El mejor momento para empezar es HOY 🧘‍♀️ *Source URL:* https://www.instagram.com/p/DdUZBEiM8Pg/ Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 0
-        },
-        {
-          "conversation_id": "IWX786Yq0IPucQc34DdL",
-          "name": "",
-          "phone": "+51998526506",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "*Headline:* Ácido Hialurónico en Infinia *Source URL:* https://fb.me/kbY267EXF Deseo reservar mi sesión Ácido Hialurónico✨",
-          "inbound": 1,
-          "manual": 0
-        },
-        {
-          "conversation_id": "WufTeZd34O036sBpYJ3o",
-          "name": "",
-          "phone": "+51904773437",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* El mejor momento para empezar es HOY 🧘‍♀️ *Source URL:* https://www.instagram.com/p/DdUZNQyM3Ca/ Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 3,
-          "manual": 0
-        },
-        {
-          "conversation_id": "1SHZR2gpYBDsYv7bTpY1",
-          "name": "",
-          "phone": "+51974118844",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Cuántas jeringas ?",
-          "inbound": 3,
-          "manual": 0
         },
         {
           "conversation_id": "ZWMolkuKAWEmPlHXYJMk",
@@ -8250,36 +4780,6 @@
           "manual": 10
         },
         {
-          "conversation_id": "tEsLlpODAIkX0gOasmEi",
-          "name": "",
-          "phone": "+51936762108",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Reserva tu primera clase en Infinia 🧘‍♀️ *Source URL:* https://www.instagram.com/p/Dd1mMt3sM6y/ Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 2
-        },
-        {
-          "conversation_id": "PQZPA1cYblOKLVMwlX6B",
-          "name": "",
-          "phone": "+51955682986",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "This message is currently unavailable.",
-          "inbound": 2,
-          "manual": 2
-        },
-        {
-          "conversation_id": "MR3OZ7F4ZC23GxBIRzcD",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "*Headline:* Ácido Hialurónico en Infinia *Source URL:* https://fb.me/7r68rStfV Deseo reservar mi sesión Ácido Hialurónico✨",
-          "inbound": 1,
-          "manual": 2
-        },
-        {
           "conversation_id": "xvaovdEMd7gfu42N8N5t",
           "name": "",
           "phone": "+51977308570",
@@ -8300,16 +4800,6 @@
           "manual": 12
         },
         {
-          "conversation_id": "byU43b2eRJyiYf3N7mWJ",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Una sesión de prueba",
-          "inbound": 2,
-          "manual": 0
-        },
-        {
           "conversation_id": "fYrRXoNISN2NCo2fRuOH",
           "name": "✅CORREO ELECTRÓNICO: ✅FECHA DE NACIMIENTO: ✅DIRECCIÓN: ✅CELULAR: Genia",
           "phone": "",
@@ -8318,86 +4808,6 @@
           "last_inbound": "O la consulta se aplica al tratamiento que me realice?",
           "inbound": 14,
           "manual": 15
-        },
-        {
-          "conversation_id": "QxJTr4IRcLj0J3svGmu3",
-          "name": "",
-          "phone": "+51974487781",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Infinia Wellness *Source URL:* https://wa.me/wamo/status/preview/51947280871/120257266124620550 Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 2,
-          "manual": 0
-        },
-        {
-          "conversation_id": "GP2HpYPMuIkmt9GteTQR",
-          "name": "",
-          "phone": "+51994081912",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Sinceramente no sé Mucho de ello",
-          "inbound": 4,
-          "manual": 0
-        },
-        {
-          "conversation_id": "LfY65qsU1W7SJUJHMTyb",
-          "name": "",
-          "phone": "+51987940197",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "*Headline:* Ácido Hialurónico en Infinia *Source URL:* https://fb.me/aDnO7gOgX Deseo reservar mi sesión Ácido Hialurónico✨",
-          "inbound": 1,
-          "manual": 0
-        },
-        {
-          "conversation_id": "Gb8Fpc1QhtQH6cHpbFIk",
-          "name": "",
-          "phone": "+51981154843",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "*Headline:* Ácido Hialurónico en Infinia *Source URL:* https://www.instagram.com/p/DcwrrhKMEha/ Deseo reservar mi sesión Ácido Hialurónico✨",
-          "inbound": 1,
-          "manual": 0
-        },
-        {
-          "conversation_id": "dLfjy0YK6u7KnUFyp1z8",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Infinia Wellness *Source URL:* https://www.instagram.com/p/Dd1lHtnMVuB/ Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 0
-        },
-        {
-          "conversation_id": "HiqiAdTHIzJkGiyztysz",
-          "name": "",
-          "phone": "+51996480105",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Pilates Reformer en Infinia ✨ *Source URL:* https://fb.me/7qa6E1L81 Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 0
-        },
-        {
-          "conversation_id": "joktdo58fFrsJe6IoTRP",
-          "name": "",
-          "phone": "+51988293720",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Infinia Wellness *Source URL:* https://wa.me/wamo/status/preview/51947280871/120257266124620550 Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 2,
-          "manual": 0
-        },
-        {
-          "conversation_id": "s3ox4Ui5gXnwfyRnZ3fq",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Tiene algún costo la consulta ?",
-          "inbound": 9,
-          "manual": 5
         },
         {
           "conversation_id": "rsrzfFqBSCjkaBYMJ9cj",
@@ -8410,16 +4820,6 @@
           "manual": 17
         },
         {
-          "conversation_id": "iOn2I06DXbM9R8MA24F7",
-          "name": "",
-          "phone": "+51927417354",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "gracias",
-          "inbound": 6,
-          "manual": 5
-        },
-        {
           "conversation_id": "7Waq4VrbG2VKWWGo3wuy",
           "name": "Carolina Centeno Phone number: +51991759581 Email: carocenteno@gmail.c",
           "phone": "+51991759581",
@@ -8430,16 +4830,6 @@
           "manual": 23
         },
         {
-          "conversation_id": "zOZg2KUTuVr2zOrs9CPp",
-          "name": "",
-          "phone": "+51988488455",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Me gustaría saber dónde se encuentran y cuáles son los planes",
-          "inbound": 4,
-          "manual": 5
-        },
-        {
           "conversation_id": "2ApqP8Cl8p6lSBh7sdXy",
           "name": "",
           "phone": "",
@@ -8448,46 +4838,6 @@
           "last_inbound": "Mas información sobre pilates",
           "inbound": 3,
           "manual": 1
-        },
-        {
-          "conversation_id": "K0YVBp1y26OCbckdKwUB",
-          "name": "",
-          "phone": "+51977762667",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "SMP",
-          "inbound": 3,
-          "manual": 6
-        },
-        {
-          "conversation_id": "NlYjPj1necjRFiR05jjR",
-          "name": "",
-          "phone": "+51979695377",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Pilates Reformer en Infinia ✨ *Source URL:* https://fb.me/7qa6E1L81 Donde estan ubicados",
-          "inbound": 2,
-          "manual": 0
-        },
-        {
-          "conversation_id": "xyzcQaPVNUZSqn910jRT",
-          "name": "",
-          "phone": "+51989762821",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Infinia Wellness *Source URL:* https://www.instagram.com/p/Dd1lHtnMVuB/ Reducir stress",
-          "inbound": 2,
-          "manual": 0
-        },
-        {
-          "conversation_id": "zuQ4BakJZMRkC5yykaRy",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "",
-          "inbound": 5,
-          "manual": 4
         },
         {
           "conversation_id": "jF4iPZ2Ok2EMUpEoJt6V",
@@ -8520,7 +4870,7 @@
         "automation_messages": 2230,
         "lead_2plus": 769,
         "real_conversation": 530,
-        "hot": 215,
+        "hot": 144,
         "price_asked": 220,
         "manual_recontacts": 337,
         "discovered": 190,
@@ -8529,7 +4879,7 @@
         "disqualified": 3
       },
       "rates": {
-        "hot": 18.7,
+        "hot": 12.5,
         "lead_2plus": 66.9,
         "real_conversation": 46.1,
         "discovery": 16.5,
@@ -9074,16 +5424,6 @@
           "manual": 21
         },
         {
-          "conversation_id": "FOBafjDHzV6ABC6r4V6a",
-          "name": "",
-          "phone": "+51994033033",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Pilates grupal a pasos de Miguel Dasso *Source URL:* https://www.instagram.com/p/DeaZRTMMwfo/ ¡Hola! Quiero más información",
-          "inbound": 2,
-          "manual": 2
-        },
-        {
           "conversation_id": "P86ongM7u3KDSGbJ3jWH",
           "name": "✅CORREO ELECTRÓNICO: ✅FECHA DE NACIMIENTO: ✅DIRECCIÓN: ✅CELULAR: https",
           "phone": "+51978514007",
@@ -9122,16 +5462,6 @@
           "last_inbound": "",
           "inbound": 7,
           "manual": 13
-        },
-        {
-          "conversation_id": "TVAZ3WzlM3OyeQnj4zO7",
-          "name": "",
-          "phone": "+51927268076",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Sí claro armonización facil",
-          "inbound": 2,
-          "manual": 5
         },
         {
           "conversation_id": "bw2m5VCrNYCV79sGP4xZ",
@@ -9262,16 +5592,6 @@
           "last_inbound": "Me puedes enviar loa tratamiwntos que hacen? Gracias y la ubicación",
           "inbound": 5,
           "manual": 5
-        },
-        {
-          "conversation_id": "rKS8BAbZaQ13bj1QUctW",
-          "name": "",
-          "phone": "+51929416568",
-          "origin": "Anuncio Meta",
-          "service": "No determinado",
-          "last_inbound": "¡Hola! Quiero más información para agendar mi clase de prueba",
-          "inbound": 1,
-          "manual": 0
         },
         {
           "conversation_id": "7EDPTpyyMJhpVVye2lUa",
@@ -9784,16 +6104,6 @@
           "manual": 3
         },
         {
-          "conversation_id": "jbWODMivmFhGLFzLUWzy",
-          "name": "",
-          "phone": "+51936394787",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "😊",
-          "inbound": 2,
-          "manual": 3
-        },
-        {
           "conversation_id": "yMzR88qN2QQoj3dTzqAI",
           "name": "",
           "phone": "+51981026518",
@@ -9802,26 +6112,6 @@
           "last_inbound": "*Headline:* Mejora textura, luminosidad y firmeza de forma progresiva *Source URL:* https://www.instagram.com/p/DeaZuYesdCL/ ¡Hola! Quiero más información",
           "inbound": 18,
           "manual": 21
-        },
-        {
-          "conversation_id": "mcAm7plMKVAj8WHrtgES",
-          "name": "",
-          "phone": "+51933078518",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Pilates grupal a pasos de Miguel Dasso *Source URL:* https://fb.me/6djjU4Ap4 Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 0
-        },
-        {
-          "conversation_id": "kEj5DQhm08t3suC14UdC",
-          "name": "",
-          "phone": "+51949867004",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Muy lejos estoy en la molina",
-          "inbound": 3,
-          "manual": 4
         },
         {
           "conversation_id": "yys46hGlcJkj1R2Igtfb",
@@ -9864,26 +6154,6 @@
           "manual": 5
         },
         {
-          "conversation_id": "cOuLcl4Zebz01VExTNNW",
-          "name": "",
-          "phone": "+51991365329",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Tonificar",
-          "inbound": 2,
-          "manual": 0
-        },
-        {
-          "conversation_id": "WCGIdvu27MqXFcq8LTPT",
-          "name": "",
-          "phone": "+51992375106",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Pilates grupal a pasos de Miguel Dasso *Source URL:* https://fb.me/6tRJ4RBK4 Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 2,
-          "manual": 0
-        },
-        {
           "conversation_id": "KR7r8Z54JmoBxh7K602x",
           "name": "",
           "phone": "",
@@ -9904,56 +6174,6 @@
           "manual": 9
         },
         {
-          "conversation_id": "tWZVCNRgOydLNuSDmA3l",
-          "name": "",
-          "phone": "+51976165511",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Fortalecer músculos y mejorar movilidad",
-          "inbound": 2,
-          "manual": 0
-        },
-        {
-          "conversation_id": "C8ZNTbcwXi8QvRKGwD9A",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Más información",
-          "inbound": 2,
-          "manual": 0
-        },
-        {
-          "conversation_id": "cvVxiR65sgcvjrP90Bg1",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Pilates grupal a pasos de Miguel Dasso *Source URL:* https://www.instagram.com/p/DeNRVGssrwN/ Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 0
-        },
-        {
-          "conversation_id": "EUYYpAgB6iUb0k6OcS5n",
-          "name": "",
-          "phone": "+51928590429",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "En que distrito se encuentra",
-          "inbound": 3,
-          "manual": 0
-        },
-        {
-          "conversation_id": "6wAFqjoxmjVHW2eqMoFk",
-          "name": "",
-          "phone": "+51998022260",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Cuánto es el tiempo de la sesión",
-          "inbound": 3,
-          "manual": 0
-        },
-        {
           "conversation_id": "x6CytPXi8vkdLoidAHG2",
           "name": "",
           "phone": "+51943898101",
@@ -9964,46 +6184,6 @@
           "manual": 0
         },
         {
-          "conversation_id": "Oloedx9UjT7QsLs9yZoj",
-          "name": "",
-          "phone": "+51965994835",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 0
-        },
-        {
-          "conversation_id": "0U7DQxwwK4tvVu60zdhi",
-          "name": "",
-          "phone": "+51941449010",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Tienen disponibilidad para hoy?",
-          "inbound": 4,
-          "manual": 0
-        },
-        {
-          "conversation_id": "RgtOtrMX8vb6CdBlq2vw",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "*Headline:* Del reformer a tu facial, en el mismo lugar *Source URL:* https://www.instagram.com/p/DeNVuNvMtFr/ Deseo reservar mi sesión Facial con Ona ✨",
-          "inbound": 1,
-          "manual": 0
-        },
-        {
-          "conversation_id": "Er4OjF01awaq0ljxV66Q",
-          "name": "",
-          "phone": "+51998348064",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "",
-          "inbound": 10,
-          "manual": 16
-        },
-        {
           "conversation_id": "VVM19SMaSQUW7kV737MW",
           "name": "",
           "phone": "+51947544789",
@@ -10012,16 +6192,6 @@
           "last_inbound": "Eata bien 4pm",
           "inbound": 10,
           "manual": 13
-        },
-        {
-          "conversation_id": "Y0a0OhBpZizIbChE9rFo",
-          "name": "",
-          "phone": "+51990012509",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Ahora no sé mi horario",
-          "inbound": 9,
-          "manual": 9
         },
         {
           "conversation_id": "7tEvJFEBLOapCS9fS2ei",
@@ -10042,16 +6212,6 @@
           "last_inbound": "",
           "inbound": 23,
           "manual": 32
-        },
-        {
-          "conversation_id": "rcutxGqKFyIi0FzXY4RA",
-          "name": "",
-          "phone": "+51987978152",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Si",
-          "inbound": 3,
-          "manual": 1
         },
         {
           "conversation_id": "bsOPfpo3QpyvpQT4MNK9",
@@ -10094,16 +6254,6 @@
           "manual": 8
         },
         {
-          "conversation_id": "bO0biT7vur8tbATgi6zE",
-          "name": "",
-          "phone": "+51981359937",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Tengo 55 años de edad piel tirando grasa",
-          "inbound": 2,
-          "manual": 0
-        },
-        {
           "conversation_id": "zJJFyp62pUZBDnSxrtR2",
           "name": "✅CORREO ELECTRÓNICO: ✅FECHA DE NACIMIENTO: ✅DIRECCIÓN: ✅CELULAR: Super",
           "phone": "+51987166168",
@@ -10124,16 +6274,6 @@
           "manual": 11
         },
         {
-          "conversation_id": "rTxYrx6NNw4tjlL1orVI",
-          "name": "",
-          "phone": "+51952517516",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "En cuantas sesiones se vee los resultados",
-          "inbound": 2,
-          "manual": 3
-        },
-        {
           "conversation_id": "IkGeglvWfjABuubq9Esw",
           "name": "",
           "phone": "+51965990202",
@@ -10142,26 +6282,6 @@
           "last_inbound": "Listo 🙌🏼",
           "inbound": 6,
           "manual": 7
-        },
-        {
-          "conversation_id": "aeFh5cU0X3HFTeh6dKYj",
-          "name": "",
-          "phone": "+51954712368",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Pilates grupal a pasos de Miguel Dasso *Source URL:* https://fb.me/6tRJ4RBK4 Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 0
-        },
-        {
-          "conversation_id": "ZH1Cgd03cGx7JW4Cg36s",
-          "name": "",
-          "phone": "+51979478065",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Pilates Reformer en Infinia *Source URL:* https://www.instagram.com/p/DeNSArNsObO/ Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 0
         },
         {
           "conversation_id": "fUKJbCoCg9yj6L8AnCJq",
@@ -10192,116 +6312,6 @@
           "last_inbound": "Hola, como no pude ir la semana pasada, para esta clase tampoco me deja inscribirme. Me gustaría estar en la clase teens el sábado a las 11",
           "inbound": 8,
           "manual": 6
-        },
-        {
-          "conversation_id": "n0Esk1TL69mHBZKmblz4",
-          "name": "",
-          "phone": "+51986509705",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Infinia Wellness *Source URL:* https://www.instagram.com/p/DZu2WVQstja/ Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 2,
-          "manual": 0
-        },
-        {
-          "conversation_id": "iYnepb2Sxn9MZ7oHaovK",
-          "name": "",
-          "phone": "+51931074741",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Pilates grupal a pasos de Miguel Dasso *Source URL:* https://fb.me/6tRJ4RBK4 Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 0
-        },
-        {
-          "conversation_id": "WjDOE07F6AhgTwwwUNaC",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Pilates grupal a pasos de Miguel Dasso *Source URL:* https://www.instagram.com/p/DeNRVGssrwN/ Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 0
-        },
-        {
-          "conversation_id": "Znwfp8vhMPjMnrqA98PW",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* El mejor momento para empezar es HOY 🧘‍♀️ *Source URL:* https://www.instagram.com/p/DdUZHhqsKUF/ Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 0
-        },
-        {
-          "conversation_id": "5ItSLxcTHxHdju3Nhrg3",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Más info",
-          "inbound": 2,
-          "manual": 0
-        },
-        {
-          "conversation_id": "yJ0S7a8cXx04dmyRmAh9",
-          "name": "",
-          "phone": "+51982027993",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Infinia Wellness *Source URL:* https://www.instagram.com/p/Dd1lHtnMVuB/ Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 0
-        },
-        {
-          "conversation_id": "tIAItQPtZXPzqmzXfXoP",
-          "name": "",
-          "phone": "+51988182059",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Infinia Wellness *Source URL:* https://www.instagram.com/p/Dd1lHtnMVuB/ Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 2
-        },
-        {
-          "conversation_id": "9ImTZMKk6g2KLtOBjFLm",
-          "name": "",
-          "phone": "+51948023629",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "*Headline:* Del reformer a tu facial, en el mismo lugar *Source URL:* https://www.instagram.com/p/DeNVuNvMtFr/ Deseo reservar mi sesión Facial con Ona ✨",
-          "inbound": 1,
-          "manual": 0
-        },
-        {
-          "conversation_id": "BXk7J1InpjhiDffhoay5",
-          "name": "",
-          "phone": "+51962529687",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Infinia Wellness *Source URL:* https://www.instagram.com/p/Dd1lHtnMVuB/ Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 2
-        },
-        {
-          "conversation_id": "Z1j9mT67Hzuop780ITBc",
-          "name": "",
-          "phone": "+51955847716",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Hola! Favor informes",
-          "inbound": 2,
-          "manual": 0
-        },
-        {
-          "conversation_id": "ji8RyjV6FMLhCuVRlEPe",
-          "name": "",
-          "phone": "+51947964784",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "*Headline:* Limpieza Facial + Ona ✨ *Source URL:* https://www.instagram.com/p/DcMqlW-Mkj4/ Deseo reservar mi sesión Facial con Ona ✨",
-          "inbound": 1,
-          "manual": 0
         },
         {
           "conversation_id": "V73EFDpCaNbKl41F0653",
@@ -10344,36 +6354,6 @@
           "manual": 23
         },
         {
-          "conversation_id": "gctNigz7KUGuGcIK6uMN",
-          "name": "",
-          "phone": "+51997895006",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Donde esta ubicada",
-          "inbound": 3,
-          "manual": 1
-        },
-        {
-          "conversation_id": "uDhYTRk3tkUVMj6mSoUn",
-          "name": "",
-          "phone": "+51954782442",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Infinia Wellness *Source URL:* https://fb.me/7vuyzSdgb Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 2
-        },
-        {
-          "conversation_id": "dpFFe6FXKV8MxnTZIBA9",
-          "name": "",
-          "phone": "+51994607364",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "*Headline:* Limpieza Facial + Ona ✨ *Source URL:* https://www.instagram.com/p/DcMqlW-Mkj4/ Deseo reservar mi sesión Facial con Ona ✨",
-          "inbound": 1,
-          "manual": 0
-        },
-        {
           "conversation_id": "2KbdibQNfchnFBadEHwT",
           "name": "",
           "phone": "+51997552603",
@@ -10382,56 +6362,6 @@
           "last_inbound": "Muchas gracias. Igualmente.",
           "inbound": 9,
           "manual": 11
-        },
-        {
-          "conversation_id": "OtZGWYTm4PuTHSrICAAg",
-          "name": "",
-          "phone": "+51962931400",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Reserva tu primera clase en Infinia 🧘‍♀️ *Source URL:* https://www.instagram.com/p/DeIXG9Zswhc/ Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 2
-        },
-        {
-          "conversation_id": "p6T7LHe1qLQ3EiTeElNO",
-          "name": "",
-          "phone": "+51996877624",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Infinia Wellness *Source URL:* https://www.instagram.com/p/Dd1lHtnMVuB/ Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 2
-        },
-        {
-          "conversation_id": "Ob3LZoFF6ujUDRG6U3Zv",
-          "name": "",
-          "phone": "+51959598806",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Infinia Wellness *Source URL:* https://www.instagram.com/p/Dd1lHtnMVuB/ Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 2
-        },
-        {
-          "conversation_id": "wGe7Qt3unLxE6m7B45Iz",
-          "name": "",
-          "phone": "+51986879071",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "*Headline:* Limpieza Facial + Ona ✨ *Source URL:* https://fb.me/24ncpJyhFp Deseo reservar mi sesión Facial con Ona ✨",
-          "inbound": 1,
-          "manual": 0
-        },
-        {
-          "conversation_id": "vsLJZ9vgILLMGvxzfwGs",
-          "name": "",
-          "phone": "+51942424460",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Y cuánto está el láser emerald",
-          "inbound": 3,
-          "manual": 0
         },
         {
           "conversation_id": "lYUTNpXbsUghwCXUSVLM",
@@ -10444,16 +6374,6 @@
           "manual": 29
         },
         {
-          "conversation_id": "lrxTI0y5j171UEcOC0Af",
-          "name": "",
-          "phone": "+51948434539",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "This message is currently unavailable.",
-          "inbound": 2,
-          "manual": 0
-        },
-        {
           "conversation_id": "XLGKlDIATnJaJmKioKvQ",
           "name": "",
           "phone": "+51949553499",
@@ -10461,36 +6381,6 @@
           "service": "Pilates",
           "last_inbound": "Voy llevando a mi hija que tiene 10 años",
           "inbound": 4,
-          "manual": 4
-        },
-        {
-          "conversation_id": "OAT690N2e43O82u0Edob",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "*Headline:* Limpieza Facial + Ona ✨ *Source URL:* https://www.instagram.com/p/DcMqlXBskE1/ Deseo reservar mi sesión Facial con Ona ✨",
-          "inbound": 1,
-          "manual": 3
-        },
-        {
-          "conversation_id": "JJQQUqXkzcdBiR061j5H",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Mas info xfa",
-          "inbound": 3,
-          "manual": 3
-        },
-        {
-          "conversation_id": "WEFmHe0wUzBDrtaG8tbU",
-          "name": "",
-          "phone": "+51952283935",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Exoxomas y PDR salmón",
-          "inbound": 13,
           "manual": 4
         },
         {
@@ -10502,16 +6392,6 @@
           "last_inbound": "Confirmo",
           "inbound": 9,
           "manual": 11
-        },
-        {
-          "conversation_id": "kqFWkepZ9NtFuG8fge5c",
-          "name": "",
-          "phone": "+51964432300",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Salgo de viaje mañana y regreso el 16",
-          "inbound": 7,
-          "manual": 9
         },
         {
           "conversation_id": "E04CK6EniqlLAMElBdBB",
@@ -10534,26 +6414,6 @@
           "manual": 6
         },
         {
-          "conversation_id": "lwq0K1CAQ9HuArelVmQx",
-          "name": "",
-          "phone": "+51990053449",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Gracias, yo aviso.",
-          "inbound": 3,
-          "manual": 1
-        },
-        {
-          "conversation_id": "0DAL4XS5NeT5WbQOEcro",
-          "name": "",
-          "phone": "+51933051241",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "This message is currently unavailable.",
-          "inbound": 2,
-          "manual": 2
-        },
-        {
           "conversation_id": "hOzD7XoBNPPm7x8T6OpY",
           "name": "",
           "phone": "+51981274628",
@@ -10562,26 +6422,6 @@
           "last_inbound": "Hola, si. Me ayudaron con un yape de 10 soles. Parece que en efecto se venció su convenio o paquete de horas. Parece que han tenido varios casos en el día me comentaron en Los Portales. Pagué mi hora y fracción S/. 25.80. gracias por la consideración de los S/.10",
           "inbound": 19,
           "manual": 8
-        },
-        {
-          "conversation_id": "c5cnbbw8gWQKu4B9x1HZ",
-          "name": "",
-          "phone": "+51943619122",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Buenas tardes me gustaría primero saber la dirección",
-          "inbound": 2,
-          "manual": 1
-        },
-        {
-          "conversation_id": "f8o1fSvCPNPqSZPJ3J40",
-          "name": "",
-          "phone": "+51952297654",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Deseo más información",
-          "inbound": 2,
-          "manual": 2
         },
         {
           "conversation_id": "ngjHCAz91aHaJ6EvHK3I",
@@ -10674,36 +6514,6 @@
           "manual": 0
         },
         {
-          "conversation_id": "8j3bOmKpCh4QDhKVXqJe",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Infinia Wellness *Source URL:* https://wa.me/wamo/status/preview/51947280871/120257266124620550 Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 0
-        },
-        {
-          "conversation_id": "oAAAQierk5AwIWHb8DAy",
-          "name": "",
-          "phone": "+51934952028",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Infinia Wellness *Source URL:* https://www.instagram.com/p/Dd1lHtnMVuB/ Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 2,
-          "manual": 0
-        },
-        {
-          "conversation_id": "ZYLV8spkQeJlcmKeM67f",
-          "name": "",
-          "phone": "+51999575565",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Ubicación",
-          "inbound": 2,
-          "manual": 0
-        },
-        {
           "conversation_id": "hyi6RVAxKeTXQ1eRCVVY",
           "name": "",
           "phone": "+51932464494",
@@ -10714,76 +6524,6 @@
           "manual": 0
         },
         {
-          "conversation_id": "JpXGI1a0QdXZjEJHpfhI",
-          "name": "",
-          "phone": "+51952377697",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "*Headline:* Ácido Hialurónico en Infinia *Source URL:* https://fb.me/a24fjqdg6 Deseo reservar mi sesión Ácido Hialurónico✨",
-          "inbound": 2,
-          "manual": 0
-        },
-        {
-          "conversation_id": "fcr0sdOvTDdXVhuwY5jH",
-          "name": "",
-          "phone": "+51965890389",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Costo",
-          "inbound": 2,
-          "manual": 0
-        },
-        {
-          "conversation_id": "WQef6ozs0RVd8iDyGBIq",
-          "name": "",
-          "phone": "+51958129746",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Gracias !",
-          "inbound": 3,
-          "manual": 0
-        },
-        {
-          "conversation_id": "ntvJ2nlWSUxMqPFxhjoX",
-          "name": "",
-          "phone": "+51929125571",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "*Headline:* Ácido Hialurónico en Infinia *Source URL:* https://fb.me/75PQstaVl Deseo reservar mi sesión Ácido Hialurónico✨",
-          "inbound": 1,
-          "manual": 0
-        },
-        {
-          "conversation_id": "qo9qethVEb7Nve1EEQBF",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "*Headline:* Ácido Hialurónico en Infinia *Source URL:* https://wa.me/wamo/status/preview/51947280871/120256851817400550 Deseo reservar mi sesión Ácido Hialurónico✨",
-          "inbound": 1,
-          "manual": 0
-        },
-        {
-          "conversation_id": "PYsYgAixRKcZd5VsWpg9",
-          "name": "",
-          "phone": "+51980738175",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Infinia Wellness *Source URL:* https://wa.me/wamo/status/preview/51947280871/120257266124620550 Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 1,
-          "manual": 0
-        },
-        {
-          "conversation_id": "Em16qfWSE8t0dEAQ70hS",
-          "name": "",
-          "phone": "+51942474112",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "*Headline:* Ácido Hialurónico en Infinia *Source URL:* https://wa.me/wamo/status/preview/51947280871/120256851817400550 Deseo reservar mi sesión Ácido Hialurónico✨",
-          "inbound": 1,
-          "manual": 2
-        },
-        {
           "conversation_id": "KM9V779cXE85EHqr26FH",
           "name": "",
           "phone": "+51989359656",
@@ -10791,46 +6531,6 @@
           "service": "Facial / inyectables",
           "last_inbound": "Quisiera saber si se mantiene esos precios",
           "inbound": 4,
-          "manual": 0
-        },
-        {
-          "conversation_id": "KmPG2BDjIUxgcYF1sdBk",
-          "name": "",
-          "phone": "+51939755566",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "*Headline:* Ácido Hialurónico en Infinia *Source URL:* https://wa.me/wamo/status/preview/51947280871/120256851817400550 Deseo reservar mi sesión Ácido Hialurónico✨",
-          "inbound": 2,
-          "manual": 0
-        },
-        {
-          "conversation_id": "zij3gXWsDBQonIvZrKBD",
-          "name": "",
-          "phone": "+51926912627",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "???",
-          "inbound": 6,
-          "manual": 5
-        },
-        {
-          "conversation_id": "zrS5zPklGqNXKgE9zH5v",
-          "name": "",
-          "phone": "+51920832240",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Si",
-          "inbound": 2,
-          "manual": 3
-        },
-        {
-          "conversation_id": "a38yG8nAWfzRF00Fts3n",
-          "name": "",
-          "phone": "+51966465554",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "*Headline:* Infinia Wellness *Source URL:* https://wa.me/wamo/status/preview/51947280871/120257266124620550 Deseo Inscribirme Pilates Infinia✨",
-          "inbound": 2,
           "manual": 0
         },
         {
@@ -10864,26 +6564,6 @@
           "manual": 9
         },
         {
-          "conversation_id": "WzJIk9CwFV3kmYIcB4fV",
-          "name": "",
-          "phone": "+51994314139",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "No",
-          "inbound": 3,
-          "manual": 5
-        },
-        {
-          "conversation_id": "lRkUtXXxhDkqgKWyZOey",
-          "name": "",
-          "phone": "+51962753576",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Sjm",
-          "inbound": 8,
-          "manual": 9
-        },
-        {
           "conversation_id": "BhGjEGn7XRks8591jUdY",
           "name": "✅CORREO ELECTRÓNICO: ✅FECHA DE NACIMIENTO: ✅DIRECCIÓN: ✅CELULAR:",
           "phone": "+51922306110",
@@ -10894,26 +6574,6 @@
           "manual": 15
         },
         {
-          "conversation_id": "w1K293eg5xGLU13JfICJ",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "*Headline:* Ácido Hialurónico en Infinia *Source URL:* https://wa.me/wamo/status/preview/51947280871/120256851817400550 Deseo reservar mi sesión Ácido Hialurónico✨",
-          "inbound": 2,
-          "manual": 0
-        },
-        {
-          "conversation_id": "YZ8Vvcvwm2K8TlNM3KGJ",
-          "name": "",
-          "phone": "+51987922619",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "Si",
-          "inbound": 2,
-          "manual": 0
-        },
-        {
           "conversation_id": "6lL1uIOmkJFkmBK6yf9G",
           "name": "✅CORREO ELECTRÓNICO: ✅FECHA DE NACIMIENTO: ✅DIRECCIÓN: ✅CELULAR: https",
           "phone": "+51955763827",
@@ -10922,26 +6582,6 @@
           "last_inbound": "ok ahora te envio todo Gracias",
           "inbound": 11,
           "manual": 21
-        },
-        {
-          "conversation_id": "oWFU2LLyJfNdFaeN4Cwm",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Facial / inyectables",
-          "last_inbound": "*Headline:* Ácido Hialurónico en Infinia *Source URL:* https://wa.me/wamo/status/preview/51947280871/120256851817400550 Deseo reservar mi sesión Ácido Hialurónico✨",
-          "inbound": 2,
-          "manual": 2
-        },
-        {
-          "conversation_id": "64IaRNtSgzCYXpXF4zTq",
-          "name": "",
-          "phone": "",
-          "origin": "Anuncio Meta",
-          "service": "Pilates",
-          "last_inbound": "Su dirección p.f.",
-          "inbound": 2,
-          "manual": 1
         },
         {
           "conversation_id": "wyx5zNWLJ7tfl3batvZ8",
